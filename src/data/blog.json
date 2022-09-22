@@ -1,0 +1,316 @@
+{
+    "blogs": [
+      {
+        "title": "Modern Apps With Amazing Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "19 Comments",
+        "image": "/assets/img/blog/blog-thumb-1.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      },
+      {
+        "title": "Modern Apps With Amazigh Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "10 Comments",
+        "image": "/assets/img/blog/blog-thumb-2.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      },
+      {
+        "title": "Modern Apps With Amazing Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "10 Comments",
+        "image": "/assets/img/blog/blog-thumb-3.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      },
+      {
+        "title": "Modern Apps With Amazing Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "10 Comments",
+        "image": "/assets/img/blog/blog-thumb-4.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      },
+      {
+        "title": "Modern Apps With Amazing Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "10 Comments",
+        "image": "/assets/img/blog/blog-thumb-5.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      },
+      {
+        "title": "Modern Apps With Amazing Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "10 Comments",
+        "image": "/assets/img/blog/blog-thumb-6.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      },
+      {
+        "title": "Modern Apps With Amazing Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "10 Comments",
+        "image": "/assets/img/blog/blog-thumb-7.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      },
+      {
+        "title": "Modern Apps With Amazing Features",
+        "permalink": "#",
+        "author": "Sandy Blogger",
+        "authorLink": "#",
+        "date": "08-02-2017",
+        "category": [
+          {
+            "catname": "Creative",
+            "catlink": "#"
+          },
+          {
+            "catname": "Design",
+            "catlink": "#"
+          },
+          {
+            "catname": "Apps",
+            "catlink": "#"
+          }
+        ],
+        "tags": [
+          {
+            "tagname": "app",
+            "taglink": "#"
+          },
+          {
+            "tagname": "google",
+            "taglink": "#"
+          },
+          {
+            "tagname": "test",
+            "taglink": "#"
+          }
+        ],
+        "comments": "10 Comments",
+        "image": "/assets/img/blog/blog-thumb-1.jpg",
+        "content": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the"
+      }
+    ],
+    "pagetitle": {
+      "blogfulltitle": "Blog Full",
+      "blog2coltitle": "Blog 2 column",
+      "blog3coltitle": "Blog 3 column",
+      "blogfullleftsidetitle": "Blog Full Left Sidebar",
+      "blogfullrightsidetitle": "Blog Full Right Sidebar"
+    }
+  
+  }

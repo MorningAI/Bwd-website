@@ -1,0 +1,105 @@
+{
+    "searchWidget": {
+        "title": "Search"
+    },
+    "latestPost": {
+        "widgetTitle": "Latest Post",
+        "widgetPosts": [
+            {
+                "date": "10 Feb, 2017",
+                "title": "Modern Apps With Amazing Features",
+                "url": "#"
+            },
+            {
+                "date": "10 Feb, 2017",
+                "title": "Modern Apps With Amazing Features",
+                "url": "#"
+            },
+            {
+                "date": "10 Feb, 2017",
+                "title": "Modern Apps With Amazing Features",
+                "url": "#"
+            },
+            {
+                "date": "10 Feb, 2017",
+                "title": "Modern Apps With Amazing Features",
+                "url": "#"
+            },
+            {
+                "date": "10 Feb, 2017",
+                "title": "Modern Apps With Amazing Features",
+                "url": "#"
+            }
+        ]
+    },
+    "categories": {
+        "widgetTitle": "Category",
+        "widgetPosts": [
+            {
+                "title": "Creative",
+                "url": "#"
+            },
+            {
+                "title": "Design",
+                "url": "#"
+            },
+            {
+                "title": "Apps",
+                "url": "#"
+            },
+            {
+                "title": "Android",
+                "url": "#"
+            },
+            {
+                "title": "App store",
+                "url": "#"
+            }
+        ]
+
+    },
+    "tags": {
+        "widgetTitle": "Tags",
+        "widgetPosts": [
+            {
+                "title": "design",
+                "url": "#"
+            },
+            {
+                "title": "apps",
+                "url": "#"
+            },
+            {
+                "title": "google",
+                "url": "#"
+            },
+            {
+                "title": "windows",
+                "url": "#"
+            },
+            {
+                "title": "apple",
+                "url": "#"
+            },
+            {
+                "title": "envato",
+                "url": "#"
+            },
+            {
+                "title": "themeforest",
+                "url": "#"
+            },
+            {
+                "title": "codecanyon",
+                "url": "#"
+            },
+            {
+                "title": "graphicriver",
+                "url": "#"
+            }
+        ]
+
+    }
+
+}
+

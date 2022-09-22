@@ -1,0 +1,76 @@
+a, .section-title h2 span, .typed-cursor, .media-icon i, .featured-package .primary-btn, .header .navbar-nav>li>a.active, .header .navbar-nav>li>a:hover, .header .navbar-nav>li>a:focus, .how-works-item .icon-outer, .single-feature-item .feature-icon {
+    color: #029BB4;
+}
+a:hover, a:focus {
+    color: #08c2f3;
+}
+.gredient-overlay, .bg-gray .featured-package, .featured-package{
+    background: #029BB4;
+    background: -webkit-linear-gradient(to left, #029BB4, #08c2f3 );
+    background: -webkit-linear-gradient(right, #029BB4, #08c2f3 );
+    background: linear-gradient(to left, #029BB4, #08c2f3 );
+}
+.single-package, .primary-btn, .media:hover .media-icon, .owl-theme .owl-dots .owl-dot span, .widget h3:before, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .scrollup, .header .nav li a:before, .header .nav li a:after, .how-works-item:hover .icon-outer, .panel-heading, .primary-bg {
+	background: #029BB4;
+}
+.primary-btn:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, .sandy-pagination .pagination>li.active>a, .header-nav .navbar-nav > li .sub-menu li > a:hover, .sandy-pagenation a:hover, .sandy-pagenation a.active{
+	background:#08c2f3;
+}
+.lines, .lines:before, .lines:after {
+	border-top:2px solid #029BB4;
+}
+@-webkit-keyframes color {
+    100%, 0% {
+        stroke: #029BB4;
+    }
+    40% {
+        stroke: #029BB4;
+    }
+    66% {
+        stroke: #029BB4;
+    }
+    80%,
+    90% {
+        stroke: #029BB4;
+    }
+}
+@keyframes color {
+    100%, 0% {
+        stroke: #029BB4;
+    }
+    40% {
+        stroke: #029BB4;
+    }
+    66% {
+        stroke: #029BB4;
+    }
+    80%,
+    90% {
+        stroke: #029BB4;
+    }
+}
+.media-icon, .post-thumb, .sandy-pagination .pagination>li.active>a, .avatar, .scrollup:hover, .tagcloud a, .how-works-item .icon-outer{
+	border: 1px dashed #029BB4;
+}
+.blog-footer{
+	border-top:1px dashed #029BB4;
+}
+.input-box:focus,
+.textarea-box:focus{
+	border: 1px solid #029BB4;
+}
+.about-boxes .media{
+    border-color: #029BB4;
+}
+.primary-btn-2 {
+    background: #222D39;
+}
+.primary-btn-2:hover{
+    background: #677294;
+}
+.primary-btn-3{
+    background: #677294;
+}
+.primary-btn-3:hover{
+    background: #222D39;
+}

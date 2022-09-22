@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sandy - React Apps Landing Page</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Sandy - React apps landing template" />
+    <meta name="author" content="App" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <!-- Font Family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- prettify css -->
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet" />
+    <!-- bootstrap-responsiv css -->
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+    <!-- style css -->
+    <link href="assets/css/documenter_style.css" rel="stylesheet" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+      html,
+      body {
+        background-color: #ffffff;
+        color: #383838;
+        font-family: 'Poppins', sans-serif !important;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #383838;
+      }
+
+      section table {
+        background-color: #ffffff;
+      }
+
+      ::-moz-selection {
+        background: #444444;
+        color: #dddddd;
+      }
+
+      ::selection {
+        background: #444444;
+        color: #dddddd;
+      }
+
+      a.brand {
+        background-image: url(assets/img/logo.png);
+      }
+
+      a,
+      a:hover,
+      a:active {
+        color: #0000ff;
+      }
+
+      hr {
+        border-top: 1px solid #ebebeb;
+        border-bottom: 1px solid #ffffff;
+      }
+
+      div.navbar-inner,
+      .navbar .nav li ul {
+        background: #dddddd;
+        color: #222222;
+      }
+
+      a.btn-navbar {
+        background: #dddddd;
+        color: #222222;
+      }
+
+      .navbar .nav li a {
+        color: #222222;
+        text-shadow: 1px 1px 0px #eeeeee;
+      }
+
+      .navbar .nav li a:hover,
+      .navbar .nav li.active a {
+        text-shadow: none;
+      }
+
+      div.navbar-inner ul {
+      }
+
+      .navbar .nav > li a {
+        color: #444444;
+      }
+
+      .navbar .nav > li a:hover,
+      a.btn-navbar:hover {
+        background: #444444;
+        color: #dddddd;
+      }
+
+      .navbar .nav .active > a,
+      .navbar .nav .active > a:hover,
+      a.btn-navbar:active {
+        background-color: #444444;
+        color: #dddddd;
+      }
+
+      .navbar .nav li ul li a:hover {
+        background: #444444;
+        color: #dddddd;
+      }
+
+      .navbar .nav li ul li a:active {
+        background: #444444;
+        color: #dddddd;
+      }
+
+      .btn-primary {
+        background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+        background-image: -ms-linear-gradient(top, #0088cc, #0044cc);
+        background-image: -webkit-gradient(
+          linear,
+          0 0,
+          0 0088%,
+          from(#dddddd),
+          to(#0044cc)
+        );
+        background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+        background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+        background-image: linear-gradient(top, #0088cc, #0044cc);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+        border-color: #0044cc #0044cc #bfbfbf;
+        color: #ffffff;
+      }
+
+      .btn-primary:hover,
+      .btn-primary:active,
+      .btn-primary.active,
+      .btn-primary.disabled,
+      .btn-primary[disabled] {
+        background-color: #0044cc;
+      }
+
+      #documenter_copyright {
+        display: block !important;
+        visibility: visible !important;
+      }
+
+      #theme_options2 img {
+        border: 1px solid #eee;
+        margin: 10px 0;
+        max-width: 100%;
+        padding: 10px;
+      }
+
+      li {
+        line-height: 30px;
+      }
+
+      .card {
+        box-shadow: 0 0px 4px rgba(0, 0, 0, 0.24);
+        margin-bottom: 1.875rem;
+        border-radius: 0;
+        padding: 26px;
+      }
+
+      .card-header {
+        padding: 0px 0px 19px 2px;
+        font-size: 22px;
+        font-weight: bold;
+        border-bottom: #80808073 1px solid;
+        margin-bottom: 15px;
+      }
+
+      .filetree {
+        background: #fafafa;
+        border: 4px solid #dbdbdb;
+        border-radius: 4px;
+        margin: 0 0 24px;
+        padding: 16px 32px;
+      }
+
+      .filetree .file {
+        display: block;
+        font-family: Roboto, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica,
+          Arial, 'Lucida Grande', sans-serif;
+        letter-spacing: 0.3px;
+        line-height: 32px;
+        color: #333;
+      }
+
+      .filetree .children {
+        padding-left: 24px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .filetree .children .file {
+        position: relative;
+      }
+
+      .filetree .children .file:before {
+        content: '';
+        left: -18px;
+        bottom: 16px;
+        width: 16px;
+        height: 9999px;
+        position: absolute;
+        border-width: 0 0 1px 1px;
+        border-style: solid;
+        border-color: #dbdbdb;
+        border-radius: 0 0 0 3px;
+      }
+
+      @media print {
+        * {
+          box-shadow: none !important;
+        }
+        .filetree {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="documenter-project-Reale Aste-" data-spy="scroll" id="top">
+    <!-- Documentation Navbar -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a
+            class="btn btn-navbar"
+            data-toggle="collapse"
+            data-target=".nav-collapse"
+          >
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Sandy Landing Page </a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#overview" title="Overview">Overview</a></li>
+              <li>
+                <a href="#stared" title="Getting Started">Getting Started</a>
+              </li>
+              <li>
+                <a href="#structure" title="Folder Structure"
+                  >Folder Structure</a
+                >
+              </li>
+              <li>
+                <a href="#htmlstructure" title="HTML Structure">Structure</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Navbar -->
+    <!-- Main Container Beginning -->
+    <div class="container documenter_content" id="overview">
+      <div id="documenter-cover">
+        <div class="masthead">
+          <h1 style="text-align: center">
+            Sandy - React apps landing template
+          </h1>
+          <p style="text-align: center">created: 18/05/2019</p>
+          <p style="text-align: center">Latest updates: 26/07/2022</p>
+          <p class="download-info">
+            <a href="themeatelierbd@gmail.com" class="btn btn-large"
+              >24/7 Support: Send Us a message by mail
+              themeatelierbd@gmail.com</a
+            >
+          </p>
+        </div>
+        <!-- masthead -->
+        <div id="intro">
+          <p class="highlight hero-unit">
+            The SANDY is a professional React landing page made with react js
+            and Bootstrap 4 framework. It’s responsive for all of the devices
+            and designed with a clean look and feel, stylish & modern trend.
+            It’s basically built for app promotion but would be suitable also
+            for mobile games showcase or any application website showcase. It
+            comes with one unique layout which includes tons of sections,
+            customization options and features for multiple purposes.
+          </p>
+          <p class="highlight hero-unit">
+            Thank you for purchasing my template. If you have any questions that
+            are beyond the scope of this help file, please feel free to Drop
+            Message at
+            <a href="https://themeforest.net/user/themeatelier" target="_blank"
+              >Profile Page</a
+            >
+          </p>
+        </div>
+        <!-- intro -->
+      </div>
+      <section id="stared">
+        <div class="page-header">
+          <h3>Getting Started</h3>
+          <hr class="notop" />
+        </div>
+        <div class="card">
+          <div class="card-header">Installation</div>
+          <div class="card-body">
+            <ul>
+              <li>
+                <b>Node.js and NPM :</b> You can download Node.js from
+                https://nodejs.org. NPM comes bundled with Node.js.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Install Npm Packages</div>
+          <div class="card-body">
+            <ul>
+              <li>
+                <b>NPM :</b> You must have to <code>npm install</code> packages.
+                You can do this by running npm install from the root of your
+                project to install all the necessary dependencies.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Development server</div>
+          <div class="card-body">
+            <ul>
+              <li>
+                Run <code> npm start </code> for a dev server. Navigate to
+                http://localhost:3000/ . The app will automatically reload if
+                you change any of the source files.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Build</div>
+          <div class="card-body">
+            <ul>
+              <li>
+                Run <code>npm run build</code> to build the project. The build
+                artifacts will be stored in the build/ directory. Use the
+                <code> npm run build --prod </code> flag for a production build.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="structure">
+        <div class="page-header">
+          <h3>Folder Structure</h3>
+          <hr class="notop" />
+        </div>
+        <pre>
+Sandy/                            // root folder
++
+|——Sandy
+|  |
+|  |——public/
+|  |  |——assets/                    --topbar, sidebar
+|  |  |    |——css/                  --css files
+|  |  |    |——fonts/                --fonts files
+|  |  |    |——img/                  --images files
+|  |  |    |——js/                   --js files
+|  |  |    
+|  |  |——favicon.ico
+|  |  |——index.html
+|  |——src/
+|  |  |—— home.js, home-full.js, home-half.js
+|  |  |
+|  |  |——components/                --Component Files Folder
+|  |  |  |—— blog-components/       -- blog-2-col,blog-3-col,blog-full,blog-left-sidebar, blog-right-sidebar,
+|  |  |  |               comments,sidebar,single,single-left-sidebar,single-right-sidebar
+|  |  |  |__ global-components/     -- footer,page-header,pagination,navbar,fof,coming-soon,blog-single-header
+|  |  |  |__ home-components/       -- About,about-intro,blog,contact,download-apps,facts-section,features,
+|  |  |  |                           hero,hero-full,hero-half,how-works,pricing,screenshots,screenshots-v2,special-features,
+|  |  |  |							subscription,testimonial,video-promo
+|  |  |  |__ Home.js  
+|  |  |
+|  |  |
+|  |  |
+|  |  |——data/                     -- json data file
+|  |  |  |
+|  |  |  |__ blog.json
+|  |  |  |__ coming-soon.json
+|  |  |  |__ fof.json
+|  |  |  |__ footerdata.json
+|  |  |  |__ home.json
+|  |  |  |__ page-header.json
+|  |  |  |__ single-blogdata.json
+|  |  |  |__ widgetdata.json
+|  |  |  |
+|  |  |  |
+|  |  |        
+|  |  |——index.js        
+|  |     
+|  |——package.json                  -- npm config: dependencies list
+|  |——package-lock.json               
++
++
+├─build/                            -- folder with builded (ready to use) files
+│  ├─ assets/                       -- assets folder
+│  ├─ Static/                       -- static folder
+│  │  │         
+│  │  │    
+│  │  ├─ js                         -- scripts
+│  │     ├─ main.559b1f91.chunk.js        
+│  │     └─ main.559b1f91.chunk.js.map   
+│  │  
+│  └─ index.html                    -- index html file
++
+
+</pre
+        >
+        <span
+          ><b>Help</b>: Forther details can be found here official documentation
+          <a href="https://reactjs.org/docs/getting-started.html"
+            >https://reactjs.org/docs/getting-started.html.</a
+          ></span
+        >
+      </section>
+      <section id="htmlstructure">
+        <div class="page-header">
+          <h3>Structure and Customization</h3>
+          <hr class="notop" />
+        </div>
+        <h3>Packge json File</h3>
+        <img src="assets/img/package-js.png" alt="" />
+        <h3>Index js ( Basename and Route )</h3>
+        <img src="assets/img/index-js.png" alt="" />
+        <h3>Header and Menu</h3>
+        <img src="assets/img/header.png" alt="" />
+        <h3>Footer</h3>
+        <img src="assets/img/footer.png" alt="" />
+        <h3>Footer Data</h3>
+        <img src="assets/img/footer-data.png" alt="" />
+        <h3>Home Components</h3>
+        <img src="assets/img/home-components.png" alt="" />
+        <h3>Home Data</h3>
+        <img src="assets/img/home-paga-data.png" alt="" />
+        <h3>Blog Components</h3>
+        <img src="assets/img/blog-components.png" alt="" />
+        <h3>Blog Data</h3>
+        <img src="assets/img/blog-data.png" alt="" />
+        <h3>Single Blog Data</h3>
+        <img src="assets/img/single-blog-data.png" alt="" />
+        <h3>Widget Data</h3>
+        <img src="assets/img/widget-data.png" alt="" />
+      </section>
+      <section id="thanks">
+        <div class="page-header">
+          <h3>Thanks</h3>
+          <hr class="notop" />
+        </div>
+        <h4 id="thanks_span_style">
+          <span
+            style="
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              outline: 0px;
+              font-weight: 700;
+              font-style: inherit;
+              font-family: inherit;
+              vertical-align: baseline;
+            "
+            >Once again thank you for purchasing one of our Templates , if you
+            like our Templates please rate us</span
+          >
+        </h4>
+        <h2
+          style="
+            margin: 0px 0px 18px;
+            padding: 0px;
+            border: 0px;
+            outline: 0px;
+            font-weight: 100;
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+            vertical-align: baseline;
+            color: rgb(56, 56, 56);
+          "
+        >
+          Best Regards
+        </h2>
+        <h3
+          style="
+            margin: 18px 0px 0px;
+            padding: 0px;
+            border: 0px;
+            outline: 0px;
+            font-weight: 100;
+            font-size: 26px;
+            font-family: 'Poppins', sans-serif;
+            vertical-align: baseline;
+            color: rgb(56, 56, 56);
+          "
+        >
+          ThemeAtelier
+        </h3>
+      </section>
+      <hr />
+      <footer>
+        <p>Copyright ThemeAtelier 2019</p>
+      </footer>
+    </div>
+    <!-- /container -->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+      document.createElement('section');
+      var duration = '500',
+        easing = 'swing';
+    </script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-min.js"></script>
+  </body>
+</html>

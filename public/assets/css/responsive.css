@@ -1,0 +1,350 @@
+.navbar-toggler{
+	padding:5px 10px;
+	font-size:20px;
+}
+
+@media (min-width: 991px) {
+	.hero-content h1,
+.hero-content h2 {
+	font-size:45px;
+}
+}
+
+
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+.promo-image{
+	max-width:500px;
+}
+/* Header nav */
+.hero-content h1{
+	font-size:40px;
+}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+/* GENERAL */
+h1{
+	font-size:40px;
+}
+h2{
+	font-size:30px;
+}
+h3{
+	font-size:25px;
+}
+h4{
+	font-size:20px;
+}
+h5{
+	font-size:16px;
+}
+h6{
+	font-size:15px;
+}
+/* Header nav */
+.header .navbar-header{
+	width:100%;
+	margin-bottom:15px;
+}
+.header .navbar-nav>li{
+	padding-left:15px;
+}
+.header .navbar-nav>li>a{
+	display: block;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.header .nav li a:before{
+	right:inherit;
+	left:0;
+}
+.header .nav.navbar-nav.navbar-nav-op.navbar-right{
+	width:100%;
+	margin-right:0px;
+}
+/* Video hero */
+.cd-immersive-video{
+	padding-top:150px;
+	height:auto;
+	padding-bottom:50px;
+}
+/* Hero section */
+.promo-image{
+	max-width:400px;
+}
+
+/* Blog section */
+.blog-thumb{
+	height:250px;
+}
+.blog-meta{
+	padding:8px;
+}
+.post-content {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.post-title{
+	font-size:18px;
+}
+/* Media box */
+.media .ml-auto{margin: auto!important;}
+.media .mr-auto{margin: auto!important;}
+.media-body p{
+	margin-bottom:0px;
+}
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+/* GENERAL */
+h1{
+	font-size:35px;
+}
+h2{
+	font-size:28px;
+}
+h3{
+	font-size:25px;
+}
+h4{
+	font-size:20px;
+}
+h5{
+	font-size:18px;
+}
+h6{
+	font-size:16px;
+}
+.hero-content h1{
+	font-size:25px;
+}
+
+/* Paddings */
+.pt200 {
+	padding-top:140px;
+}
+.pt100{
+	padding-top:50px;
+}
+.pb100{
+	padding-bottom:50px;
+}
+
+.pt70{
+	padding-top:35px;
+}
+
+/* Margins*/
+.mb60{
+	margin-bottom:30px
+}
+.mt60{
+	margin-top:30px;
+}
+/* Buttons */
+.primary-btn{
+	padding:10px 25px;
+}
+/* Header */
+.header {
+	padding-top:10px;
+	padding-bottom:10px;
+	background:#E6F4FE;
+}
+.header .navbar-header{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.header .navbar-toggle{
+	margin-bottom:0px;
+}
+.header .navbar-nav > li{
+	padding-left:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.header .navbar-nav > li a{
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	display:block;
+}
+.header .nav li a:before{
+	right:inherit;
+}
+.header .logo{
+	line-height:30px;
+}
+/* Video hero */
+.cd-immersive-video{
+	padding-top:100px;
+	height:auto;
+	padding-bottom:50px;
+}
+/* Hero section */
+
+.hero-full-screen{
+	height:auto;
+	padding-top:100px;
+	padding-bottom:50px;
+}
+.header.nav-sticky .dropdown li a{
+	color:#ffffff;
+}
+.header.nav-sticky .dropdown li a:hover, .header.nav-sticky .dropdown li.active a{
+	color:#0d3559;
+	background:#ffffff;
+}
+/* Features */
+
+.vertical-align > .flex-box, .vertical-align > .flex-box{
+	top:-10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+/* About section */
+.left-icon-boxes, .right-icon-boxes {
+  text-align: center;
+}
+.vertical-align {
+  display: inherit;
+}
+/* how it section */
+.how-works-item{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.how-works-item:first-child::before {
+    border-color: #0d3559;
+}
+.how-works-item:last-child::after {
+    border-color: #0d3559;
+}
+/* counter section */
+.single-counter i{
+	font-size:40px;
+}
+.single-counter h4{
+	font-size:18px;
+}
+.counter-number {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* Blog section */
+.owl-nav{
+	top:-40px;
+}
+.blog-thumb{
+	height:250px;
+}
+.blog-meta{
+	padding:8px;
+}
+.post-content {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.post-title{
+	font-size:18px;
+}
+
+/* Contact */
+.contact-block{
+	padding:30px 15px;
+}
+.contact-block .subtitle{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* Footer */
+.social-icons{
+	margin-bottom:10px;
+}
+/* Blog page */
+.hero-content h1{
+	margin-bottom:15px;
+}
+.pagination-lg > li > a, .pagination-lg > li > span{
+	padding:6px 10px;
+}
+.sidebar-inner .widget{
+	padding:15px;
+}
+/* Single blog */
+.blog-footer{
+	padding:10px 15px 10px;
+}
+.blog-footer span{
+	display:block;
+	padding-right:0px;
+}
+.blog-comment{
+	padding:20px 0;
+}
+
+/* 404 page */
+.ep-title{
+	font-size:80px;
+	line-height:90px;
+}
+.ep-subtitle{
+	font-size:18px;
+}
+
+/* Coming soon page */
+#launch-timer li{
+	display:block;
+	margin-top:20px;
+}
+#launch-timer li {
+	line-height:25px;
+}
+.screenshots-mobile{
+	margin-bottom:30px;
+}
+.scrollup{
+	right:10px;
+}
+/* Media box */
+.media .ml-auto{margin:auto!important;}
+.media .mr-auto{margin:auto!important;}
+.media-body p{
+	margin-bottom:0px;
+}
+.card-header{
+	padding:2px 0px;
+}
+#accordion .card-header button:before{
+	top:4px;
+}
+.pagination-lg .page-link{
+	padding:5px 15px;
+}
+.primary-btn{
+	min-width: 150px;
+	text-align: center;
+	margin-left:5px;
+	margin-right: 5px;
+}
+.hero-content .primary-btn-2, .hero-content .primary-btn-3, .aboutIntroText .primary-btn-2, .aboutIntroText .primary-btn-3{
+	margin-left: 5px;
+	margin-top: 25px;
+	display: inline-block;
+}
+.aboutIntroText h2{
+	font-size: 30px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+}

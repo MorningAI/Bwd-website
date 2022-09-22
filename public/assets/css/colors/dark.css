@@ -1,0 +1,77 @@
+a, .section-title h2 span, .typed-cursor, .media-icon i, .featured-package .primary-btn, .header .navbar-nav>li>a.active, .header .navbar-nav>li>a:hover, .header .navbar-nav>li>a:focus, .how-works-item .icon-outer, .single-feature-item .feature-icon {
+    color: #123F63;
+}
+a:hover, a:focus {
+    color: #042f52;
+}
+.gredient-overlay, .bg-gray .featured-package, .featured-package{
+    background: #123F63;
+    background: -webkit-linear-gradient(to left, #123F63, #042f52 );
+    background: -webkit-linear-gradient(right, #123F63, #042f52 );
+    background: linear-gradient(to left, #123F63, #042f52 );
+}
+.single-package, .primary-btn, .media:hover .media-icon, .owl-theme .owl-dots .owl-dot span, .widget h3:before, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .scrollup, .header .nav li a:before, .header .nav li a:after, .how-works-item:hover .icon-outer, .panel-heading, .primary-bg {
+	background: #123F63;
+}
+
+.primary-btn:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, .sandy-pagination .pagination>li.active>a, .header-nav .navbar-nav > li .sub-menu li > a:hover, .sandy-pagenation a:hover, .sandy-pagenation a.active{
+	background:#042f52;
+}
+.lines, .lines:before, .lines:after {
+	border-top:2px solid #123F63;
+}
+@-webkit-keyframes color {
+    100%, 0% {
+        stroke: #123F63;
+    }
+    40% {
+        stroke: #123F63;
+    }
+    66% {
+        stroke: #123F63;
+    }
+    80%,
+    90% {
+        stroke: #123F63;
+    }
+}
+@keyframes color {
+    100%, 0% {
+        stroke: #123F63;
+    }
+    40% {
+        stroke: #123F63;
+    }
+    66% {
+        stroke: #123F63;
+    }
+    80%,
+    90% {
+        stroke: #123F63;
+    }
+}
+.media-icon, .post-thumb, .sandy-pagination .pagination>li.active>a, .avatar, .scrollup:hover, .tagcloud a, .how-works-item .icon-outer{
+	border: 1px dashed #123F63;
+}
+.blog-footer{
+	border-top:1px dashed #123F63;
+}
+.input-box:focus,
+.textarea-box:focus{
+	border: 1px solid #123F63;
+}
+.about-boxes .media{
+    border-color: #123F63;
+}
+.primary-btn-2 {
+    background: #222D39;
+}
+.primary-btn-2:hover{
+    background: #677294;
+}
+.primary-btn-3{
+    background: #677294;
+}
+.primary-btn-3:hover{
+    background: #222D39;
+}

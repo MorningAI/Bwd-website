@@ -1,0 +1,52 @@
+{
+  "socialicon": [
+      {
+        "icon": "fa fa-facebook",
+        "url": "#",
+        "class": "facebook"
+      },
+      {
+        "icon": "fa fa-twitter",
+        "url": "#",
+        "class": "twitter"
+      },
+      {
+        "icon": "fa fa-google-plus",
+        "url": "",
+        "class": "google-plus"
+      },
+      {
+        "icon": "fa fa-youtube",
+        "url": "#",
+        "class": "youtube"
+      },
+      {
+        "icon": "fa fa-linkedin",
+        "url": "#",
+        "class": "linked-in"
+      },
+      {
+        "icon": "fa fa-instagram",
+        "url": "#",
+        "class": "instagram"
+      },
+      {
+        "icon": "fa fa-pinterest",
+        "url": "#",
+        "class": "pinterest"
+      },
+      {
+        "icon": "fa fa-dribbble",
+        "url": "#",
+        "class": "dribbble"
+      },
+      {
+        "icon": "fa fa-behance",
+        "url": "#",
+        "class": "behance"
+      }
+
+    ],
+  "copyrighttext": " &copy; Copyright 2019 <a href='#'>Sandy</a>. All Rights Reserved."
+
+}

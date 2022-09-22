@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/react-project/sandy/static/js/main.84b78007.chunk.js",
+    "main.js.map": "/react-project/sandy/static/js/main.84b78007.chunk.js.map",
+    "runtime~main.js": "/react-project/sandy/static/js/runtime~main.eb772b71.js",
+    "runtime~main.js.map": "/react-project/sandy/static/js/runtime~main.eb772b71.js.map",
+    "static/js/2.32a1f6be.chunk.js": "/react-project/sandy/static/js/2.32a1f6be.chunk.js",
+    "static/js/2.32a1f6be.chunk.js.map": "/react-project/sandy/static/js/2.32a1f6be.chunk.js.map",
+    "index.html": "/react-project/sandy/index.html",
+    "precache-manifest.fe732a366dc1b23a04f61b50b62c066f.js": "/react-project/sandy/precache-manifest.fe732a366dc1b23a04f61b50b62c066f.js",
+    "service-worker.js": "/react-project/sandy/service-worker.js"
+  }
+}

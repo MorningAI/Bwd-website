@@ -1,0 +1,566 @@
+{
+    "herov1": {
+        "title": "Sandy is best for",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
+        "button": {
+            "btn1": "Download",
+            "btnurl1": "#"
+        },
+        "img": "/assets/img/hero-1.png",
+        "typedText": ["landing page.", "Marketing your apps.", "Sale your apps."]
+    },
+    "heroFull": {
+        "title": "Sandy is best for apps landing page.",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
+        "button": {
+            "btn1": "Download",
+            "btnurl1": "#"
+        },
+        "img": "/assets/img/special-feature-bg.jpg"
+    },
+    "herovHalf": {
+        "title": "Sandy is best for apps landing page.",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
+        "button": {
+            "btn1": "Download",
+            "btnurl1": "#"
+        },
+        "img": "/assets/img/special-feature-bg.jpg"
+    },
+    "heroVideo": {
+        "title": "Sandy is best for",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
+        "button": {
+            "btn1": "Download",
+            "btnurl1": "#"
+        },
+        "frame":"/assets/img/mobile-frame.svg",
+        "productImg":"/assets/img/video-fallback.jpg",
+        "videoUrl": "/assets/video/video.mp4",
+        "typedText": ["landing page.", "Marketing your apps.", "Sale your apps."]
+    },
+    "aboutIntro": {
+        "img" : "/assets/img/showcase.jpg",
+        "title": "Showcase your app with Sandy",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting. Lorem Ipsum has been the industry's typesetting industry standard.",
+        "button": {
+            "btn1": "Read more",
+            "btnurl1": "#"
+        }
+    },
+    "about": {
+        "sectionHeading": {
+            "title": "About <span>Sandy</span>",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "aboutFeatures": [
+            {
+                "title": "Blog page included",
+                "icon": "pe-7s-box1",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+            },
+            {
+                "title": "W3C Valid HTML",
+                "icon": "pe-7s-box1",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+            },
+            {
+                "title": "Very Easy to Customize",
+                "icon": "pe-7s-look",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+            },
+            {
+                "title": "Google fonts used",
+                "icon": "pe-7s-magic-wand",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+            },
+            {
+                "title": "SEO friendly",
+                "icon": "pe-7s-graph1",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+            },
+            {
+                "title": "Well documented",
+                "icon": "pe-7s-display2",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+            }
+        ]
+    },
+    "blogs": {
+        "sectionHeading": {
+            "title": "Latest <span>Blogs</span>",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "blogcontent": [
+            {
+                "postDate": "08-02-2017",
+                "cats": [
+                    {
+                    "catname": "Creative",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Design",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Apps",
+                    "catlink": "#"
+                    }
+                ],
+                "author": "Sandy Blogger",
+                "authorUrl": "",
+                "comments": "10 Comments",
+                "commentUrl": "#",
+                "title": "Modern Apps With Amazing Features",
+                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+                "readLink": "Read more...",
+                "url": "#",
+                "image": "/assets/img/blog/blog-thumb-1.jpg"
+            },
+            {
+                "postDate": "08-02-2017",
+                "cats": [
+                    {
+                    "catname": "Creative",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Design",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Apps",
+                    "catlink": "#"
+                    }
+                ],
+                "author": "Sandy Blogger",
+                "comments": "10 Comments",
+                "commentUrl": "#",
+                "title": "Modern Apps With Amazing Features",
+                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+                "readLink": "Read more...",
+                "url": "#",
+                "image": "/assets/img/blog/blog-thumb-2.jpg"
+            },
+            {
+                "postDate": "08-02-2017",
+                "cats": [
+                    {
+                    "catname": "Creative",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Design",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Apps",
+                    "catlink": "#"
+                    }
+                ],
+                "author": "Sandy Blogger",
+                "comments": "10 Comments",
+                "commentUrl": "#",
+                "title": "Modern Apps With Amazing Features",
+                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+                "readLink": "Read more...",
+                "url": "#",
+                "image": "/assets/img/blog/blog-thumb-3.jpg"
+            },
+            {
+                "postDate": "08-02-2017",
+                "cats": [
+                    {
+                    "catname": "Creative",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Design",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Apps",
+                    "catlink": "#"
+                    }
+                ],
+                "author": "Sandy Blogger",
+                "comments": "10 Comments",
+                "commentUrl": "#",
+                "title": "Modern Apps With Amazing Features",
+                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+                "readLink": "Read more...",
+                "url": "#",
+                "image": "/assets/img/blog/blog-thumb-4.jpg"
+            },
+            {
+                "postDate": "08-02-2017",
+                "cats": [
+                    {
+                    "catname": "Creative",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Design",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Apps",
+                    "catlink": "#"
+                    }
+                ],
+                "author": "Sandy Blogger",
+                "comments": "10 Comments",
+                "commentUrl": "#",
+                "title": "Modern Apps With Amazing Features",
+                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+                "readLink": "Read more...",
+                "url": "#",
+                "image": "/assets/img/blog/blog-thumb-5.jpg"
+            },
+            {
+                "postDate": "08-02-2017",
+                "cats": [
+                    {
+                    "catname": "Creative",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Design",
+                    "catlink": "#"
+                    },
+                    {
+                    "catname": "Apps",
+                    "catlink": "#"
+                    }
+                ],
+                "author": "Sandy Blogger",
+                "comments": "10 Comments",
+                "commentUrl": "#",
+                "title": "Modern Apps With Amazing Features",
+                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+                "readLink": "Read more...",
+                "url": "#",
+                "image": "/assets/img/blog/blog-thumb-6.jpg"
+            }
+        ],
+        "viewAllUrl": "#"
+    },
+    "contact": {
+        "sectionHeading": {
+            "title": "Need to talk anything about?",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        "submitBtnLabel": "Send Now",
+        "bgImg": "/assets/img/contact-bg.jpg"
+    },
+    "downloadApps": {
+        "sectionHeading": {
+            "title": "Download <span>SANDY</span> from your flatform",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+        },
+        "bgImg": "/assets/img/flat-devices.png",
+        "buttons": [
+            {
+                "btnlabel": "Get now<span>App store</span>",
+                "icon": "fa fa-apple",
+                "url": "#"
+            },
+            {
+                "btnlabel": "Get now<span>App store</span>",
+                "icon": "fa fa-android",
+                "url": "#"
+            },
+            {
+                "btnlabel": "Get now<span>App store</span>",
+                "icon": "fa fa-windows",
+                "url": "#"
+            }
+        ]
+    },
+    "funfacts": {
+        "bgImg": "/assets/img/counter-bg.jpg",
+        "facts":[
+            {
+                "title": "Faster",
+                "icon": "pe-7s-magic-wand",
+                "number": "100",
+                "unit": "%"
+            },
+            {
+                "title": "Cup of Coffee",
+                "icon": "pe-7s-coffee",
+                "number": "900"
+            },
+            {
+                "title": "Active Clients",
+                "icon": "pe-7s-check",
+                "number": "10000"
+            },
+            {
+                "title": "Peoples Love",
+                "icon": "pe-7s-like",
+                "number": "1276"
+            }
+        ]
+    },
+    "features": {
+        "sectionHeading": {
+            "title": "Amazing <span>Features</span>",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "singleFeature": {
+            "featurePart1":[
+                {
+                    "title": "Responsive design",
+                    "icon": "pe-7s-refresh-2",
+                    "desc": "Lorem ipsum dolor sit amet, elita dolor sit amet Uniquely fashion."
+                },
+                {
+                    "title": "Bootstrap framework",
+                    "icon": "pe-7s-rocket",
+                    "desc": "Lorem ipsum dolor sit amet, elita dolor sit Synergistically incubate."
+                },
+                {
+                    "title": "Pixel perfect design",
+                    "icon": "pe-7s-settings",
+                    "desc": "Efficiently benchmark compelling Lorem ipsum dolor sit amet, elita."
+                }
+            ],
+            "image": "/assets/img/feature-image.png",
+            "featurePart2":[
+                {
+                    "title": "Unique Design",
+                    "icon": "pe-7s-shield",
+                    "desc": "Holisticly transform integrated ipsum dolor sit amet, elita dolor."
+                },
+                {
+                    "title": "CSS3 Animations",
+                    "icon": "pe-7s-smile",
+                    "desc": "Professionally optimize one-to-one dolor sit amet, elita dolor."
+                },
+                {
+                    "title": "Working Forms",
+                    "icon": "pe-7s-search",
+                    "desc": "Compellingly leverage existing ipsum dolor sit amet, elita dolor."
+                }
+            ]
+        }
+    },
+    "howWorks" : {
+        "sectionHeading": {
+            "title": "How <span>Sandy</span> works?",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "workProcess": [
+            {
+                "title": "Add friends",
+                "icon": "pe-7s-add-user"
+            },
+            {
+                "title": "Posts like",
+                "icon": "pe-7s-like2"
+            },
+            {
+                "title": "Messageing",
+                "icon": "pe-7s-mail-open"
+            },
+            {
+                "title": "Check in",
+                "icon": "pe-7s-plane"
+            }
+        ]
+    },
+    "pricingTable": {
+        "sectionHeading": {
+            "title": "Pricing <span>Packages</span>",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "singleTable": [
+            {
+                "title": "Starter",
+                "currency": "$",
+                "price": "10",
+                "duration": "/month",
+                "features": [
+                    "Awesome features",
+                    "Free supports",
+                    "6 month supports",
+                    "Unlimated backup",
+                    "24/7 Customer Service",
+                    "All devices useable",
+                    "Well documentation"
+                ],
+                "btnLabel": "Download",
+                "url": "#"
+            },
+            {
+                "title": "Business",
+                "currency": "$",
+                "price": "20",
+                "duration": "/month",
+                "features": [
+                    "Awesome features",
+                    "Free supports",
+                    "6 month supports",
+                    "Unlimated backup",
+                    "24/7 Customer Service",
+                    "All devices useable",
+                    "Well documentation"
+                ],
+                "btnLabel": "Download",
+                "url": "#"
+            },
+            {
+                "title": "Professional",
+                "currency": "$",
+                "price": "30",
+                "duration": "/month",
+                "features": [
+                    "Awesome features",
+                    "Free supports",
+                    "6 month supports",
+                    "Unlimated backup",
+                    "24/7 Customer Service",
+                    "All devices useable",
+                    "Well documentation"
+                ],
+                "btnLabel": "Download",
+                "url": "#"
+            }
+        ]
+    },
+    "accordion": {
+        "sectionHeading": {
+            "title": "Apps <span>FAQ</span>",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "title": "Frequently ask questions",
+        "accordionContent": [
+            {
+                "title": "Is SANDY work for IOS?",
+                "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo."
+            },
+            {
+                "title": "How SANDY work on other device?",
+                "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+            },
+            {
+                "title": "What about user interface?",
+                "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+            },
+            {
+                "title": "Is SANDY work everwhere?",
+                "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et."
+            }
+        ],
+        "image": "/assets/img/faq.jpg"
+    },
+    "screenshots": {
+        "sectionHeading": {
+            "title": "Apps <span>Screenshots</span>",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "screenshot": [
+            {
+                "img": "/assets/img/screenshots/screenshot-1.jpg",
+                "title": "Front page"
+            },
+            {
+                "img": "/assets/img/screenshots/screenshot-2.jpg",
+                "title": "Front page"
+            },
+            {
+                "img": "/assets/img/screenshots/screenshot-3.jpg",
+                "title": "Front page"
+            },
+            {
+                "img": "/assets/img/screenshots/screenshot-1.jpg",
+                "title": "Front page"
+            },
+            {
+                "img": "/assets/img/screenshots/screenshot-2.jpg",
+                "title": "Front page"
+            }
+        ]
+    },
+    "specialFeatures": {
+        "title": "Sandy's special features.",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
+        "btnLabel": "Learn more",
+        "btnUrl": "#",
+        "bgImg": "/assets/img/special-feature-bg.jpg"
+    },
+    "subscription": {
+        "title": "Subscribe now!",
+        "shortDesc": "Subscribe to get all latest news from us.",
+        "downloadTitle": "Where to download?",
+        "downloadDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
+        "buttons": [
+            {
+                "btnlabel": "Get now",
+                "icon": "fa fa-apple",
+                "url": "#",
+                "animation": "3s"
+            },
+            {
+                "btnlabel": "Get now",
+                "icon": "fa fa-android",
+                "url": "#",
+                "animation": "3s"
+            },
+            {
+                "btnlabel": "Get now",
+                "icon": "fa fa-windows",
+                "url": "#",
+                "animation": "3s"
+            }
+        ]
+    },
+    "testimonial" : {
+        "sectionHeading": {
+            "title": "Clients <span>Feedback</span>",
+            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+        },
+        "testimonial": [
+            {
+                "name": "Jenefar Deo",
+                "compnyName": "TOTO company",
+                "compnyUrl": "#",
+                "position": "CEO,",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "img": "/assets/img/testimonial/avater-1.jpg"
+            },
+            {
+                "name": "John Deo",
+                "compnyName": "TOTO company",
+                "compnyUrl": "#",
+                "position": "Manager,",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "img": "/assets/img/testimonial/avater-2.jpg"
+            },
+            {
+                "name": "Eva menyer",
+                "compnyName": "TOTO company",
+                "compnyUrl": "#",
+                "position": "CEO,",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "img": "/assets/img/testimonial/avater-3.jpg"
+            },
+            {
+                "name": "Eva menyer",
+                "compnyName": "TOTO company",
+                "compnyUrl": "#",
+                "position": "CEO,",
+                "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "img": "/assets/img/testimonial/avater-4.jpg"
+            }
+        ]
+    },
+    "videoPromo": {
+        "title": "Sandy is very easy to use.",
+        "icon": "fa fa-play",
+        "background": "/assets/img/video-bg.jpg",
+        "videoID": "8Pf8heedkVQ"
+    }
+}
