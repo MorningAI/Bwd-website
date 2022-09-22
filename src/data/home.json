@@ -9,24 +9,6 @@
         "img": "/assets/img/hero-1.png",
         "typedText": ["landing page.", "Marketing your apps.", "Sale your apps."]
     },
-    "heroFull": {
-        "title": "Sandy is best for apps landing page.",
-        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
-        "button": {
-            "btn1": "Download",
-            "btnurl1": "#"
-        },
-        "img": "/assets/img/special-feature-bg.jpg"
-    },
-    "herovHalf": {
-        "title": "Sandy is best for apps landing page.",
-        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
-        "button": {
-            "btn1": "Download",
-            "btnurl1": "#"
-        },
-        "img": "/assets/img/special-feature-bg.jpg"
-    },
     "heroVideo": {
         "title": "Sandy is best for",
         "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typesetting industry standard dummy text ever since the typesetting.",
@@ -86,166 +68,7 @@
             }
         ]
     },
-    "blogs": {
-        "sectionHeading": {
-            "title": "Latest <span>Blogs</span>",
-            "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
-        },
-        "blogcontent": [
-            {
-                "postDate": "08-02-2017",
-                "cats": [
-                    {
-                    "catname": "Creative",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Design",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Apps",
-                    "catlink": "#"
-                    }
-                ],
-                "author": "Sandy Blogger",
-                "authorUrl": "",
-                "comments": "10 Comments",
-                "commentUrl": "#",
-                "title": "Modern Apps With Amazing Features",
-                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-                "readLink": "Read more...",
-                "url": "#",
-                "image": "/assets/img/blog/blog-thumb-1.jpg"
-            },
-            {
-                "postDate": "08-02-2017",
-                "cats": [
-                    {
-                    "catname": "Creative",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Design",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Apps",
-                    "catlink": "#"
-                    }
-                ],
-                "author": "Sandy Blogger",
-                "comments": "10 Comments",
-                "commentUrl": "#",
-                "title": "Modern Apps With Amazing Features",
-                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-                "readLink": "Read more...",
-                "url": "#",
-                "image": "/assets/img/blog/blog-thumb-2.jpg"
-            },
-            {
-                "postDate": "08-02-2017",
-                "cats": [
-                    {
-                    "catname": "Creative",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Design",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Apps",
-                    "catlink": "#"
-                    }
-                ],
-                "author": "Sandy Blogger",
-                "comments": "10 Comments",
-                "commentUrl": "#",
-                "title": "Modern Apps With Amazing Features",
-                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-                "readLink": "Read more...",
-                "url": "#",
-                "image": "/assets/img/blog/blog-thumb-3.jpg"
-            },
-            {
-                "postDate": "08-02-2017",
-                "cats": [
-                    {
-                    "catname": "Creative",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Design",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Apps",
-                    "catlink": "#"
-                    }
-                ],
-                "author": "Sandy Blogger",
-                "comments": "10 Comments",
-                "commentUrl": "#",
-                "title": "Modern Apps With Amazing Features",
-                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-                "readLink": "Read more...",
-                "url": "#",
-                "image": "/assets/img/blog/blog-thumb-4.jpg"
-            },
-            {
-                "postDate": "08-02-2017",
-                "cats": [
-                    {
-                    "catname": "Creative",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Design",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Apps",
-                    "catlink": "#"
-                    }
-                ],
-                "author": "Sandy Blogger",
-                "comments": "10 Comments",
-                "commentUrl": "#",
-                "title": "Modern Apps With Amazing Features",
-                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-                "readLink": "Read more...",
-                "url": "#",
-                "image": "/assets/img/blog/blog-thumb-5.jpg"
-            },
-            {
-                "postDate": "08-02-2017",
-                "cats": [
-                    {
-                    "catname": "Creative",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Design",
-                    "catlink": "#"
-                    },
-                    {
-                    "catname": "Apps",
-                    "catlink": "#"
-                    }
-                ],
-                "author": "Sandy Blogger",
-                "comments": "10 Comments",
-                "commentUrl": "#",
-                "title": "Modern Apps With Amazing Features",
-                "desc": "Lorem Ipsum is simply dummy tex of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
-                "readLink": "Read more...",
-                "url": "#",
-                "image": "/assets/img/blog/blog-thumb-6.jpg"
-            }
-        ],
-        "viewAllUrl": "#"
-    },
+   
     "contact": {
         "sectionHeading": {
             "title": "Need to talk anything about?",
@@ -275,32 +98,6 @@
                 "btnlabel": "Get now<span>App store</span>",
                 "icon": "fa fa-windows",
                 "url": "#"
-            }
-        ]
-    },
-    "funfacts": {
-        "bgImg": "/assets/img/counter-bg.jpg",
-        "facts":[
-            {
-                "title": "Faster",
-                "icon": "pe-7s-magic-wand",
-                "number": "100",
-                "unit": "%"
-            },
-            {
-                "title": "Cup of Coffee",
-                "icon": "pe-7s-coffee",
-                "number": "900"
-            },
-            {
-                "title": "Active Clients",
-                "icon": "pe-7s-check",
-                "number": "10000"
-            },
-            {
-                "title": "Peoples Love",
-                "icon": "pe-7s-like",
-                "number": "1276"
             }
         ]
     },
@@ -354,7 +151,7 @@
         },
         "workProcess": [
             {
-                "title": "Add friends",
+                "title": "Add bn,;:friends",
                 "icon": "pe-7s-add-user"
             },
             {
