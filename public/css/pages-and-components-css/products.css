@@ -1,0 +1,186 @@
+/*================================================
+Products Area CSS
+=================================================*/
+.single-products-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.single-products-box .products-image {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.single-products-box .products-image .main-image {
+  position: relative;
+  display: block;
+}
+
+.single-products-box .products-image .main-image img {
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.single-products-box .products-image .sale-tag {
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  color: var(--whiteColor);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.single-products-box .products-image .new-tag {
+  top: 20px;
+  z-index: 2;
+  right: 20px;
+  padding: 1px 7px;
+  position: absolute;
+  text-align: center;
+  color: var(--whiteColor);
+  text-transform: uppercase;
+  background-color: green;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.single-products-box .products-image .default-btn {
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  margin-top: 20px;
+  visibility: hidden;
+  position: absolute;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.single-products-box .products-content {
+  margin-top: 25px;
+  position: relative;
+}
+
+.single-products-box .products-content h3 {
+  margin-bottom: 13px;
+  font-size: 20px;
+}
+
+.single-products-box .products-content .price {
+  font-weight: 700;
+}
+
+.single-products-box .products-content .price .old-price {
+  text-decoration: line-through;
+  color: var(--paragraphColor);
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.single-products-box:hover .products-image .main-image img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) translateZ(0);
+          transform: scale3d(1.1, 1.1, 1.1) translateZ(0);
+}
+
+.single-products-box:hover .products-image .default-btn {
+  opacity: 1;
+  margin-top: 0;
+  visibility: visible;
+}
+
+.pakap-grid-sorting {
+  margin-bottom: 30px;
+}
+
+.pakap-grid-sorting .result-count p .count {
+  font-weight: 700;
+  color: var(--blackColor);
+}
+
+.pakap-grid-sorting .ordering {
+  text-align: end;
+}
+
+.pakap-grid-sorting .ordering label {
+  color: var(--paragraphColor);
+  display: inline-block;
+  font-weight: 500;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+.pakap-grid-sorting .ordering select {
+  height: 45px;
+  width: 215px;
+  cursor: pointer;
+  line-height: 45px;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  padding: 0 0 0 15px;
+  display: inline-block;
+  border-color: #eeeeee;
+  color: var(--blackColor);
+  background-color: #f8f8f8;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: var(--fontSize);
+  font-weight: 600;
+}
+
+.pakap-grid-sorting .ordering select:hover {
+  border-color: var(--mainColor);
+  background-color: transparent;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .pakap-grid-sorting {
+    text-align: center;
+  }
+  .pakap-grid-sorting .ordering {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .pakap-grid-sorting .ordering select {
+    height: 40px;
+    line-height: 40px;
+  }
+  .single-products-box .products-image .default-btn {
+    top: auto;
+    left: auto;
+    right: 15px;
+    opacity: 1;
+    bottom: 15px;
+    margin-top: 0;
+    -webkit-transform: unset;
+            transform: unset;
+    visibility: visible;
+  }
+  .single-products-box .products-content {
+    margin-top: 20px;
+  }
+  .single-products-box .products-content h3 {
+    font-size: 16px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-products-box .products-content h3 {
+    font-size: 18px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=products.css.map */

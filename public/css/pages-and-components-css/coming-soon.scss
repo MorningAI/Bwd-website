@@ -1,0 +1,262 @@
+/*================================================
+Coming Soon Area CSS
+=================================================*/
+.coming-soon-area {
+    height: 100vh;
+}
+.coming-soon-image {
+    height: 100%;
+    background: {
+        image: url(/images/coming-soon.jpg);
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+    };
+    img {
+        display: none;
+    }
+}
+.coming-soon-content {
+    height: 100vh;
+    text-align: center;
+    padding: {
+        left: 30px;
+        right: 30px;
+    };
+    .logo {
+        display: inline-block;
+    }
+    h2 {
+        font-size: 40px;
+        margin: {
+            top: 30px;
+            bottom: 0;
+        };
+    }
+    #timer {
+        margin-top: 35px;
+
+        div {
+            width: 120px;
+            height: 120px;
+            border-radius: 5px;
+            color: var(--mainColor);
+            background-color: #f9f9f9;
+            font: {
+                size: 40px;
+                weight: 800;
+            };
+            margin: {
+                left: 10px;
+                right: 10px;
+            };
+            span {
+                display: block;
+                margin-top: -2px;
+                color: var(--blackColor);
+                font: {
+                    size: var(--fontSize);
+                    weight: 600;
+                };
+            }
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    form {
+        position: relative;
+        max-width: 530px;
+        margin: {
+            left: auto;
+            right: auto;
+            top: 40px;
+        };
+        .input-newsletter {
+            width: 100%;
+            height: 60px;
+            border: none;
+            display: block;
+            border-radius: 4px;
+            padding: 0 0 0 15px;
+            color: var(--blackColor);
+            font-size: var(--fontSize);
+            border: 1px solid #eeeeee;
+            transition: var(--transition);
+
+            &::placeholder {
+                color: var(--paragraphColor);
+                transition: var(--transition);
+            }
+            &:focus {                  
+                border-color: #eeeeee;
+
+                &::placeholder {
+                    color: transparent;
+                }
+            }
+        }
+        .default-btn {
+            background-color: var(--mainColor);
+            color: var(--whiteColor);
+            border-radius: 4px;
+            position: absolute;
+            bottom: 8px;
+            right: 5px;
+
+            &::before {
+                border-radius: 4px;
+            }
+        }
+        #validator-newsletter {
+            position: absolute;
+            bottom: -32px;
+            left: 0;
+
+            &.validation-danger {
+                color: red;
+            }
+        }
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .coming-soon-image {
+        height: auto;
+        background-image: unset !important;
+
+        img {
+            display: inline-block;
+        }
+    }
+    .coming-soon-content {
+        height: auto;
+        padding: {
+            top: 60px;
+            left: 15px;
+            right: 15px;
+            bottom: 60px;
+        };
+        h2 {
+            font-size: 22px;
+            margin-top: 25px;
+        }
+        #timer {
+            margin-top: 10px;
+
+            div {
+                width: 90px;
+                height: 90px;
+                font-size: 25px;
+                margin-top: 20px;
+
+                span {
+                    font-size: 12px;
+                    margin-top: 0;
+                }
+                &:first-child {
+                    margin-left: 10px;
+                }
+                &:last-child {
+                    margin-right: 10px;
+                }
+            }
+        }
+        form {
+            max-width: 420px;
+            margin-top: 30px;
+
+            .default-btn {
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                display: block;
+                margin-top: 15px;
+                position: relative;
+                padding: 15px 20px 13px;
+            }
+            .input-newsletter {
+                padding: 0 0 0 15px;
+                font-size: 13px;
+                height: 45px;
+            }
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .coming-soon-image {
+        height: auto;
+        background-image: unset !important;
+
+        img {
+            display: inline-block;
+        }
+    }
+    .coming-soon-content {
+        height: auto;
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+        h2 {
+            font-size: 30px;
+        }
+        form {
+            .default-btn {
+                bottom: 8px;
+            }
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .coming-soon-content {
+        padding: {
+            left: 15px;
+            right: 15px;
+        };
+        #timer {
+            div {
+                width: 100px;
+                height: 100px;
+                font-size: 30px;
+            }
+        }
+        form {
+            max-width: 465px;
+            margin-top: 30px;
+        }
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+
+
+}
+
+/* Min width 1550px */
+@media only screen and (min-width: 1550px) {
+
+    
+
+}

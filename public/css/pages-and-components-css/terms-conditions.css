@@ -1,0 +1,152 @@
+/*================================================
+Privacy Policy Area CSS
+=================================================*/
+.terms-conditions-content h6 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.terms-conditions-content h6:not(:first-child) {
+  margin-top: 25px;
+}
+
+.terms-conditions-content h5 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.terms-conditions-content h5:not(:first-child) {
+  margin-top: 25px;
+}
+
+.terms-conditions-content h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.terms-conditions-content h4:not(:first-child) {
+  margin-top: 25px;
+}
+
+.terms-conditions-content h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.terms-conditions-content h3:not(:first-child) {
+  margin-top: 25px;
+}
+
+.terms-conditions-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.terms-conditions-content h2:not(:first-child) {
+  margin-top: 25px;
+}
+
+.terms-conditions-content h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.terms-conditions-content h1:not(:first-child) {
+  margin-top: 25px;
+}
+
+.terms-conditions-content strong {
+  color: var(--blackColor) !important;
+}
+
+.terms-conditions-content p a {
+  color: var(--mainColor);
+}
+
+.terms-conditions-content p a:hover {
+  text-decoration: underline;
+}
+
+.terms-conditions-content ul li {
+  color: var(--paragraphColor);
+  margin-bottom: 12px;
+}
+
+.terms-conditions-content ul li a {
+  color: var(--mainColor);
+}
+
+.terms-conditions-content ul li a:hover {
+  text-decoration: underline;
+}
+
+.terms-conditions-content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.terms-conditions-content ol li {
+  color: var(--paragraphColor);
+  margin-bottom: 12px;
+}
+
+.terms-conditions-content ol li a {
+  color: var(--mainColor);
+}
+
+.terms-conditions-content ol li a:hover {
+  text-decoration: underline;
+}
+
+.terms-conditions-content ol li:last-child {
+  margin-bottom: 0;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .terms-conditions-content h6 {
+    font-size: 16px;
+  }
+  .terms-conditions-content h5 {
+    font-size: 17px;
+  }
+  .terms-conditions-content h4 {
+    font-size: 18px;
+  }
+  .terms-conditions-content h3 {
+    font-size: 19px;
+  }
+  .terms-conditions-content h2 {
+    font-size: 20px;
+  }
+  .terms-conditions-content h1 {
+    font-size: 21px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .terms-conditions-content h6 {
+    font-size: 18px;
+  }
+  .terms-conditions-content h5 {
+    font-size: 19px;
+  }
+  .terms-conditions-content h4 {
+    font-size: 20px;
+  }
+  .terms-conditions-content h3 {
+    font-size: 21px;
+  }
+  .terms-conditions-content h2 {
+    font-size: 22px;
+  }
+  .terms-conditions-content h1 {
+    font-size: 23px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=terms-conditions.css.map */

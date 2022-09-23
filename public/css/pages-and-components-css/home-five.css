@@ -1,0 +1,758 @@
+/*================================================
+Gradient Banner Area CSS
+=================================================*/
+.gradient-banner-area {
+  z-index: 1;
+  position: relative;
+  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.gradient-banner-content {
+  padding-right: 15px;
+}
+
+.gradient-banner-content h1 {
+  color: var(--whiteColor);
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-size: 48px;
+}
+
+.gradient-banner-content p {
+  color: var(--whiteColor);
+  max-width: 550px;
+  font-size: 16px;
+  opacity: .9;
+}
+
+.gradient-banner-content form {
+  position: relative;
+  margin-top: 30px;
+  max-width: 510px;
+}
+
+.gradient-banner-content form .input-newsletter {
+  width: 100%;
+  height: 70px;
+  display: block;
+  padding-left: 25px;
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
+  border-radius: 5px;
+  border: none;
+}
+
+.gradient-banner-content form .input-newsletter::-webkit-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.gradient-banner-content form .input-newsletter:-ms-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.gradient-banner-content form .input-newsletter::-ms-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.gradient-banner-content form .input-newsletter::placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.gradient-banner-content form .input-newsletter:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.gradient-banner-content form .input-newsletter:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.gradient-banner-content form .input-newsletter:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.gradient-banner-content form .input-newsletter:focus::placeholder {
+  color: transparent;
+}
+
+.gradient-banner-content form .default-btn {
+  position: absolute;
+  border-radius: 5px;
+  height: 60px;
+  right: 5px;
+  top: 5px;
+}
+
+.gradient-banner-content form .default-btn::before {
+  border-radius: 5px;
+}
+
+.gradient-banner-image {
+  text-align: center;
+  padding-left: 15px;
+}
+
+/*================================================
+About Area CSS
+=================================================*/
+.about-content {
+  padding-right: 30px;
+}
+
+.about-content .sub-title {
+  display: block;
+  margin-bottom: 10px;
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.about-content .features-text {
+  margin-top: 30px;
+}
+
+.about-content .features-text h6 {
+  margin-bottom: 11px;
+}
+
+.about-content .btn-box {
+  margin-top: 30px;
+}
+
+.about-content .btn-box .default-btn {
+  margin-right: 15px;
+}
+
+.about-content .btn-box .link-btn {
+  display: inline-block;
+  font-weight: 600;
+  position: relative;
+}
+
+.about-content .btn-box .link-btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  width: 100%;
+  bottom: 0;
+  height: 1px;
+  background-color: var(--blackColor);
+}
+
+.about-content .btn-box .link-btn:hover {
+  color: var(--mainColor);
+}
+
+.about-content .btn-box .link-btn:hover::before {
+  width: 0;
+}
+
+.about-image {
+  z-index: 1;
+  margin-left: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.about-image::before {
+  left: -30px;
+  content: '';
+  z-index: -1;
+  bottom: 10px;
+  width: 585px;
+  height: 585px;
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
+}
+
+.about-img {
+  text-align: center;
+}
+
+/*================================================
+Features Area CSS
+=================================================*/
+.features-inner {
+  -webkit-box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.1);
+          box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.1);
+  background-color: var(--whiteColor);
+  padding-bottom: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+/*================================================
+Feedback Area CSS
+=================================================*/
+.feedback-tabs {
+  max-width: 960px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback-tabs .react-tabs__tab-panel p {
+  color: var(--blackColor);
+  position: relative;
+  z-index: 1;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.feedback-tabs .react-tabs__tab-panel p::before {
+  opacity: .04;
+  content: "\EC51";
+  font-family: remixicon;
+  position: absolute;
+  font-size: 200px;
+  line-height: 1;
+  top: -60px;
+  left: 12%;
+}
+
+.feedback-tabs .react-tabs__tab-panel p::after {
+  opacity: .04;
+  content: "\EC52";
+  font-family: remixicon;
+  position: absolute;
+  font-size: 200px;
+  line-height: 1;
+  bottom: -60px;
+  right: 12%;
+}
+
+.feedback-tabs .react-tabs__tab-panel h6 {
+  font-weight: 300;
+  padding-left: 30px;
+  position: relative;
+  display: inline-block;
+  color: var(--paragraphColor);
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.feedback-tabs .react-tabs__tab-panel h6 span {
+  font-weight: 600;
+  color: var(--blackColor);
+}
+
+.feedback-tabs .react-tabs__tab-panel h6::before {
+  left: 0;
+  top: 50%;
+  content: '';
+  height: 1px;
+  width: 20px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: var(--gradientColor);
+}
+
+.feedback-tabs .react-tabs__tab-list {
+  border-bottom: none;
+  max-width: 540px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.feedback-tabs .react-tabs__tab-list .react-tabs__tab {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  display: inline-block;
+  width: 16%;
+  margin: 20px 10px 0;
+}
+
+.feedback-tabs .react-tabs__tab-list .react-tabs__tab img {
+  border-radius: 5px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.feedback-tabs .react-tabs__tab-list .react-tabs__tab::before {
+  top: -8px;
+  z-index: 1;
+  right: -8px;
+  content: '';
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: var(--gradientColor);
+}
+
+.feedback-tabs .react-tabs__tab-list .react-tabs__tab:focus::after {
+  display: none;
+}
+
+.feedback-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected img, .feedback-tabs .react-tabs__tab-list .react-tabs__tab:hover img {
+  -webkit-box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.feedback-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/*================================================
+Free Trial Area CSS
+=================================================*/
+.free-trial-inner {
+  position: relative;
+  z-index: 1;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.free-trial-inner::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  z-index: -1;
+  content: '';
+  border-radius: 5px;
+  position: absolute;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+}
+
+.free-trial-inner .content {
+  padding-right: 15px;
+  position: relative;
+  top: 80px;
+}
+
+.free-trial-inner .content .sub-title {
+  display: block;
+  margin-bottom: 12px;
+  letter-spacing: 0.1em;
+  color: var(--whiteColor);
+  font-weight: 600;
+}
+
+.free-trial-inner .content h2 {
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 0;
+  color: var(--whiteColor);
+}
+
+.free-trial-inner .content form {
+  position: relative;
+  margin-top: 25px;
+}
+
+.free-trial-inner .content form .input-newsletter {
+  width: 100%;
+  height: 60px;
+  display: block;
+  padding-left: 25px;
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
+  border-radius: 30px;
+  border: none;
+}
+
+.free-trial-inner .content form .input-newsletter::-webkit-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.free-trial-inner .content form .input-newsletter:-ms-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.free-trial-inner .content form .input-newsletter::-ms-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.free-trial-inner .content form .input-newsletter::placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.free-trial-inner .content form .input-newsletter:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.free-trial-inner .content form .input-newsletter:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.free-trial-inner .content form .input-newsletter:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.free-trial-inner .content form .input-newsletter:focus::placeholder {
+  color: transparent;
+}
+
+.free-trial-inner .content form .default-btn {
+  border-radius: 30px;
+  position: absolute;
+  height: 50px;
+  right: 5px;
+  top: 5px;
+}
+
+.free-trial-inner .content form .default-btn::before {
+  border-radius: 30px;
+}
+
+.free-trial-inner .image {
+  padding-left: 15px;
+  text-align: center;
+}
+
+.free-trial-inner .shape8 {
+  left: auto;
+  right: 9%;
+  z-index: 1;
+  top: 35%;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .gradient-banner-area {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+  .gradient-banner-content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .gradient-banner-content h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .gradient-banner-content p {
+    font-size: 13px;
+    max-width: 100%;
+  }
+  .gradient-banner-content form {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .gradient-banner-content form .input-newsletter {
+    height: 50px;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  .gradient-banner-content form .default-btn {
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+    right: 0;
+    top: 0;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+  }
+  .gradient-banner-image {
+    padding-left: 0;
+    margin-top: 35px;
+  }
+  .about-content {
+    padding-right: 0;
+  }
+  .about-content h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .about-content .features-text h6 {
+    margin-bottom: 11px;
+    font-size: 14px;
+  }
+  .about-content .btn-box {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .about-image {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .about-image::before {
+    display: none;
+  }
+  .about-img {
+    margin-top: 30px;
+  }
+  .features-inner {
+    padding-bottom: 0;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .feedback-tabs {
+    max-width: 100%;
+  }
+  .feedback-tabs .react-tabs__tab-panel p {
+    font-size: 14px;
+  }
+  .feedback-tabs .react-tabs__tab-panel p::before {
+    font-size: 100px;
+    top: -30px;
+  }
+  .feedback-tabs .react-tabs__tab-panel p::after {
+    font-size: 100px;
+    bottom: -30px;
+  }
+  .feedback-tabs .react-tabs__tab-panel h6 {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .feedback-tabs .react-tabs__tab-list {
+    margin-top: 10px;
+  }
+  .free-trial-inner {
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .free-trial-inner .content {
+    text-align: center;
+    padding-right: 0;
+    top: 0;
+  }
+  .free-trial-inner .content .sub-title {
+    font-size: 12px;
+  }
+  .free-trial-inner .content h2 {
+    font-size: 20px;
+    max-width: 100%;
+    margin-bottom: 12px;
+  }
+  .free-trial-inner .content form {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .free-trial-inner .content form .input-newsletter {
+    height: 50px;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  .free-trial-inner .content form .default-btn {
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+    right: 0;
+    top: 0;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+  }
+  .free-trial-inner .image {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .gradient-banner-content form .default-btn {
+    position: absolute;
+    margin-top: 0;
+    height: 45px;
+    right: 2px;
+    top: 2px;
+  }
+  .free-trial-inner .content form .default-btn {
+    position: absolute;
+    margin-top: 0;
+    height: 45px;
+    right: 2.5px;
+    top: 2.5px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .gradient-banner-area {
+    padding-bottom: 80px;
+    padding-top: 160px;
+  }
+  .gradient-banner-content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .gradient-banner-content h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .gradient-banner-content p {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gradient-banner-content form {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gradient-banner-image {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .about-content {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .about-content h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .about-image {
+    margin-left: 0;
+  }
+  .about-image::before {
+    display: none;
+  }
+  .features-inner {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+  }
+  .features-inner h3 {
+    font-size: 15px;
+  }
+  .feedback-tabs {
+    max-width: 100%;
+  }
+  .feedback-tabs .react-tabs__tab-panel p {
+    font-size: 17px;
+  }
+  .feedback-tabs .react-tabs__tab-panel p::before {
+    font-size: 150px;
+    top: -45px;
+  }
+  .feedback-tabs .react-tabs__tab-panel p::after {
+    font-size: 150px;
+    bottom: -45px;
+  }
+  .feedback-tabs .react-tabs__tab-panel h6 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .free-trial-inner {
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .free-trial-inner .content {
+    top: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  .free-trial-inner .content .sub-title {
+    font-size: 13px;
+  }
+  .free-trial-inner .content h2 {
+    font-size: 30px;
+    max-width: 100%;
+  }
+  .free-trial-inner .content form {
+    max-width: 100%;
+  }
+  .free-trial-inner .image {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .free-trial-inner .shape8 {
+    top: 55%;
+    bottom: auto;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .gradient-banner-content {
+    padding-right: 0;
+  }
+  .gradient-banner-content h1 {
+    font-size: 45px;
+  }
+  .gradient-banner-content p {
+    max-width: 100%;
+    font-size: 15px;
+  }
+  .gradient-banner-content form {
+    max-width: 100%;
+  }
+  .about-content {
+    padding-right: 0;
+  }
+  .about-image {
+    margin-left: 0;
+  }
+  .about-image::before {
+    display: none;
+  }
+  .free-trial-inner {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .free-trial-inner .content {
+    padding-right: 0;
+    top: 55px;
+  }
+  .free-trial-inner .image {
+    padding-left: 0;
+  }
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .about-image {
+    margin-left: 0;
+  }
+  .about-image::before {
+    display: none;
+  }
+  .free-trial-inner {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* Min width 1550px */
+/*# sourceMappingURL=home-five.css.map */

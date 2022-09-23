@@ -1,0 +1,176 @@
+/*================================================
+Privacy Policy Area CSS
+=================================================*/
+.privacy-policy-content {
+    h6 {
+        font-size: 20px;
+        margin-bottom: 15px;
+
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+    }
+    h5 {
+        font-size: 22px;
+        margin-bottom: 15px;
+
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+    }
+    h4 {
+        font-size: 24px;
+        margin-bottom: 15px;
+
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+    }
+    h3 {
+        font-size: 26px;
+        margin-bottom: 15px;
+
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+    }
+    h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+    }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+    }
+    strong {
+        color: var(--blackColor) !important;
+    }
+    p {
+        a {
+            color: var(--mainColor);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    ul {
+        li {
+            color: var(--paragraphColor);
+            margin-bottom: 12px;
+
+            a {
+                color: var(--mainColor);
+    
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    ol {
+        li {
+            color: var(--paragraphColor);
+            margin-bottom: 12px;
+
+            a {
+                color: var(--mainColor);
+    
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .privacy-policy-content {
+        h6 {
+            font-size: 16px;
+        }
+        h5 {
+            font-size: 17px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        h3 {
+            font-size: 19px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 21px;
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .privacy-policy-content {
+        h6 {
+            font-size: 18px;
+        }
+        h5 {
+            font-size: 19px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 21px;
+        }
+        h2 {
+            font-size: 22px;
+        }
+        h1 {
+            font-size: 23px;
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+
+
+}
+
+/* Min width 1550px */
+@media only screen and (min-width: 1550px) {
+
+    
+
+}

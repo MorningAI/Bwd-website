@@ -1,0 +1,659 @@
+/*================================================
+Profile Authentication Area CSS
+=================================================*/
+.profile-authentication-area {
+  height: 100vh;
+  position: relative;
+  background-color: #f3f3f3;
+}
+
+.profile-authentication-area .logo {
+  left: 0;
+  right: 0;
+  top: 20px;
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-authentication-area .social-links {
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  padding-left: 0;
+  margin-bottom: 0;
+  position: absolute;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-authentication-area .social-links li {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.profile-authentication-area .social-links li span {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.profile-authentication-area .social-links li a {
+  width: 35px;
+  height: 35px;
+  display: block;
+  font-size: 17px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  color: var(--whiteColor);
+  border: 1px solid var(--mainColor);
+  background-color: var(--mainColor);
+}
+
+.profile-authentication-area .social-links li a:hover {
+  color: var(--mainColor);
+  background-color: transparent;
+}
+
+.profile-authentication-area .social-links li a.facebook {
+  background-color: #3b5998;
+  color: var(--whiteColor);
+  border-color: #3b5998;
+}
+
+.profile-authentication-area .social-links li a.facebook:hover {
+  color: #3b5998;
+  background-color: transparent;
+}
+
+.profile-authentication-area .social-links li a.twitter {
+  background-color: #1da1f2;
+  color: var(--whiteColor);
+  border-color: #1da1f2;
+}
+
+.profile-authentication-area .social-links li a.twitter:hover {
+  color: #1da1f2;
+  background-color: transparent;
+}
+
+.profile-authentication-area .social-links li a.linkedin {
+  background-color: #007bb5;
+  color: var(--whiteColor);
+  border-color: #007bb5;
+}
+
+.profile-authentication-area .social-links li a.linkedin:hover {
+  color: #007bb5;
+  background-color: transparent;
+}
+
+.profile-authentication-area .social-links li a.instagram {
+  background-color: #c13584;
+  color: var(--whiteColor);
+  border-color: #c13584;
+}
+
+.profile-authentication-area .social-links li a.instagram:hover {
+  color: #c13584;
+  background-color: transparent;
+}
+
+.profile-authentication-area .social-links li a i {
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -1px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.profile-authentication-area .social-links li:last-child {
+  margin-right: 0;
+}
+
+.profile-authentication-area .social-links li:first-child {
+  margin-left: 0;
+}
+
+.signin-form {
+  padding: 40px;
+  max-width: 550px;
+  border-radius: 5px;
+  background-color: var(--whiteColor);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signin-form h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  line-height: 1;
+  text-align: center;
+}
+
+.signin-form form .form-group {
+  margin-bottom: 20px;
+}
+
+.signin-form form .remember-me-wrap {
+  margin-bottom: 0;
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:checked, .signin-form form .remember-me-wrap [type="checkbox"]:not(:checked) {
+  display: none;
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:checked + label, .signin-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label {
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: 20px;
+  position: relative;
+  padding-left: 28px;
+  display: inline-block;
+  color: var(--paragraphColor);
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:checked + label:before, .signin-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label:before {
+  top: 0;
+  left: 0;
+  content: '';
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  border-radius: 3px;
+  background: #f5f5f5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: 1px solid #f5f5f5;
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:checked + label:after, .signin-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label:after {
+  left: 6px;
+  top: 5.5px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: var(--mainColor);
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:hover + label:before {
+  border-color: var(--mainColor);
+}
+
+.signin-form form .remember-me-wrap [type="checkbox"]:checked + label:before {
+  border-color: var(--mainColor);
+}
+
+.signin-form form .lost-your-password-wrap {
+  text-align: end;
+}
+
+.signin-form form .lost-your-password-wrap a {
+  display: inline-block;
+  position: relative;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.signin-form form .lost-your-password-wrap a::before {
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: #eeeeee;
+}
+
+.signin-form form .lost-your-password-wrap a::after {
+  left: 0;
+  width: 0;
+  bottom: 0;
+  content: '';
+  height: 1px;
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--mainColor);
+}
+
+.signin-form form .lost-your-password-wrap a:hover::before {
+  width: 0;
+}
+
+.signin-form form .lost-your-password-wrap a:hover::after {
+  width: 100%;
+}
+
+.signin-form form button {
+  width: 100%;
+  border: none;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 30px;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--mainColor);
+  font-size: var(--fontSize);
+  font-weight: 700;
+}
+
+.signin-form form button:hover {
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+
+.signin-form form .dont-account {
+  display: block;
+  margin-top: 25px;
+  color: var(--paragraphColor);
+}
+
+.signin-form form .dont-account a {
+  font-weight: 600;
+}
+
+.signin-form .sign-in-with-button {
+  margin-top: 25px;
+}
+
+.signin-form .sign-in-with-button button {
+  width: 100%;
+  display: block;
+  color: #248BD2;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  background-color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  padding-top: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 13px;
+}
+
+.signin-form .sign-in-with-button button svg {
+  position: absolute;
+  margin-left: -25px;
+  margin-left: -25px;
+  margin-top: 2px;
+}
+
+.signin-form .sign-in-with-button button:hover {
+  color: var(--blackColor);
+  background-color: #E9E9E9;
+}
+
+.signup-form {
+  padding: 40px;
+  max-width: 550px;
+  border-radius: 5px;
+  background-color: var(--whiteColor);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-form h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  line-height: 1;
+  text-align: center;
+}
+
+.signup-form form .form-group {
+  margin-bottom: 20px;
+}
+
+.signup-form form .remember-me-wrap {
+  margin-bottom: 0;
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:checked, .signup-form form .remember-me-wrap [type="checkbox"]:not(:checked) {
+  display: none;
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:checked + label, .signup-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label {
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: 20px;
+  position: relative;
+  padding-left: 28px;
+  display: inline-block;
+  color: var(--paragraphColor);
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:checked + label:before, .signup-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label:before {
+  top: 0;
+  left: 0;
+  content: '';
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  border-radius: 3px;
+  background: #f5f5f5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: 1px solid #f5f5f5;
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:checked + label:after, .signup-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label:after {
+  left: 6px;
+  top: 5.5px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: var(--mainColor);
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:hover + label:before {
+  border-color: var(--mainColor);
+}
+
+.signup-form form .remember-me-wrap [type="checkbox"]:checked + label:before {
+  border-color: var(--mainColor);
+}
+
+.signup-form form .lost-your-password-wrap {
+  text-align: end;
+}
+
+.signup-form form .lost-your-password-wrap a {
+  display: inline-block;
+  position: relative;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.signup-form form .lost-your-password-wrap a::before {
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: #eeeeee;
+}
+
+.signup-form form .lost-your-password-wrap a::after {
+  left: 0;
+  width: 0;
+  bottom: 0;
+  content: '';
+  height: 1px;
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--mainColor);
+}
+
+.signup-form form .lost-your-password-wrap a:hover::before {
+  width: 0;
+}
+
+.signup-form form .lost-your-password-wrap a:hover::after {
+  width: 100%;
+}
+
+.signup-form form button {
+  width: 100%;
+  border: none;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 30px;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--mainColor);
+  font-size: var(--fontSize);
+  font-weight: 700;
+}
+
+.signup-form form button:hover {
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+
+.signup-form form .dont-account {
+  display: block;
+  margin-top: 25px;
+  color: var(--paragraphColor);
+}
+
+.signup-form form .dont-account a {
+  font-weight: 600;
+}
+
+.signup-form .sign-in-with-button {
+  margin-top: 25px;
+}
+
+.signup-form .sign-in-with-button button {
+  width: 100%;
+  display: block;
+  color: #248BD2;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  background-color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  padding-top: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 13px;
+}
+
+.signup-form .sign-in-with-button button svg {
+  position: absolute;
+  margin-left: -25px;
+  margin-left: -25px;
+  margin-top: 2px;
+}
+
+.signup-form .sign-in-with-button button:hover {
+  color: var(--blackColor);
+  background-color: #E9E9E9;
+}
+
+.forget-password-form {
+  padding: 40px;
+  max-width: 550px;
+  border-radius: 5px;
+  background-color: var(--whiteColor);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.forget-password-form h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.forget-password-form form .form-group {
+  margin-bottom: 20px;
+}
+
+.forget-password-form form button {
+  width: 100%;
+  border: none;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 30px;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--mainColor);
+  font-size: var(--fontSize);
+  font-weight: 700;
+}
+
+.forget-password-form form button:hover {
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .profile-authentication-area {
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 110px;
+  }
+  .signin-form {
+    max-width: 100%;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .signin-form h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .signin-form form .lost-your-password-wrap {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .signin-form form .form-group {
+    margin-bottom: 15px;
+  }
+  .signin-form form .remember-me-wrap {
+    margin-top: 5px;
+  }
+  .signin-form form button {
+    padding: 12px 30px;
+    font-size: 13px;
+  }
+  .signin-form form .dont-account {
+    margin-top: 20px;
+  }
+  .signin-form .sign-in-with-button {
+    margin-top: 20px;
+  }
+  .signin-form .sign-in-with-button button {
+    padding-bottom: 12px;
+  }
+  .signin-form .sign-in-with-button button svg {
+    margin-top: 0;
+  }
+  .signup-form {
+    max-width: 100%;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  .signup-form h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .signup-form form .form-group {
+    margin-bottom: 15px;
+  }
+  .signup-form form button {
+    padding: 12px 30px;
+    font-size: 13px;
+  }
+  .signup-form form .dont-account {
+    margin-top: 20px;
+  }
+  .signup-form .sign-in-with-button {
+    margin-top: 20px;
+  }
+  .signup-form .sign-in-with-button button {
+    padding-bottom: 12px;
+  }
+  .signup-form .sign-in-with-button button svg {
+    margin-top: 0;
+  }
+  .forget-password-form {
+    text-align: center;
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+  .forget-password-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .forget-password-form form button {
+    padding: 13px 30px;
+    font-size: 13px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .signin-form {
+    padding: 30px;
+  }
+  .signin-form h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .signin-form .sign-in-with-button {
+    margin-top: 20px;
+  }
+  .signup-form {
+    padding: 30px;
+  }
+  .signup-form h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .signup-form .sign-in-with-button {
+    margin-top: 20px;
+  }
+  .forget-password-form {
+    padding: 30px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=profile-authentication.css.map */

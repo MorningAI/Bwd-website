@@ -1,0 +1,303 @@
+/*================================================
+Checkout Area CSS
+=================================================*/
+.user-actions {
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  border-top: 3px solid var(--mainColor);
+  background: var(--whiteColor);
+  padding: 15px 20px 15px 45px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.user-actions i {
+  color: var(--mainColor);
+  position: absolute;
+  font-size: 19px;
+  left: 20px;
+  top: 12px;
+}
+
+.user-actions span {
+  color: var(--mainColor);
+  display: inline-block;
+  font-weight: 500;
+}
+
+.user-actions span a {
+  display: inline-block;
+}
+
+.billing-details .title {
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.billing-details .title::before {
+  left: 0;
+  content: '';
+  width: 50px;
+  height: 1px;
+  bottom: -1px;
+  position: absolute;
+  background: var(--mainColor);
+}
+
+.billing-details .form-group {
+  margin-bottom: 25px;
+}
+
+.billing-details .form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.billing-details .form-group label .required {
+  color: red;
+}
+
+.billing-details .form-group .form-select {
+  width: 100%;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  line-height: 50px;
+  padding: 0 0 0 15px;
+  background: #f8f8f8;
+  border-color: #eeeeee;
+  color: var(--blackColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: var(--fontSize);
+  font-weight: 600;
+}
+
+.billing-details .form-group .form-select:hover {
+  border-color: var(--mainColor);
+  background-color: transparent;
+}
+
+.billing-details .form-group textarea.form-control {
+  padding-top: 15px;
+  height: auto;
+}
+
+.billing-details .form-check {
+  margin-bottom: 20px;
+}
+
+.billing-details .form-check .form-check-label {
+  color: var(--blackColor);
+  position: relative;
+  font-weight: 500;
+  top: .5px;
+}
+
+.billing-details .col-lg-12:last-child .form-group {
+  margin-bottom: 0;
+}
+
+.order-details .title {
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.order-details .title::before {
+  left: 0;
+  content: '';
+  width: 50px;
+  height: 1px;
+  bottom: -1px;
+  position: absolute;
+  background: var(--mainColor);
+}
+
+.order-details .order-table table {
+  margin-bottom: 0;
+}
+
+.order-details .order-table table thead tr {
+  border-bottom-width: 0;
+  border-color: #eaedff;
+}
+
+.order-details .order-table table thead tr th {
+  white-space: nowrap;
+  border-bottom-width: 0;
+  vertical-align: middle;
+  border-color: #eaedff;
+  padding: 12px 20px 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: var(--fontSize);
+}
+
+.order-details .order-table table tbody tr {
+  border-color: #eaedff;
+}
+
+.order-details .order-table table tbody tr td {
+  color: var(--paragraphColor);
+  border-color: #eaedff;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+}
+
+.order-details .order-table table tbody tr td.product-name {
+  color: var(--paragraphColor);
+}
+
+.order-details .order-table table tbody tr td.product-name a {
+  display: inline-block;
+  color: var(--paragraphColor);
+}
+
+.order-details .order-table table tbody tr td.product-name a:hover {
+  color: var(--mainColor);
+}
+
+.order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
+  color: var(--blackColor);
+  font-weight: 700;
+}
+
+.order-details .order-table table tbody tr td.shipping-price, .order-details .order-table table tbody tr td.order-subtotal-price, .order-details .order-table table tbody tr td.product-subtotal {
+  color: var(--blackColor);
+  font-weight: 700;
+}
+
+.order-details .payment-box {
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  background-color: var(--whiteColor);
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.order-details .payment-box .payment-method p [type="radio"]:checked, .order-details .payment-box .payment-method p [type="radio"]:not(:checked) {
+  display: none;
+}
+
+.order-details .payment-box .payment-method p [type="radio"]:checked + label, .order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label {
+  color: var(--blackColor);
+  padding-left: 27px;
+  position: relative;
+  margin-bottom: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  display: block;
+}
+
+.order-details .payment-box .payment-method p [type="radio"]:checked + label::before, .order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label::before {
+  left: 0;
+  top: 4px;
+  content: '';
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #dddddd;
+  background: var(--whiteColor);
+}
+
+.order-details .payment-box .payment-method p [type="radio"]:checked + label::after, .order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label::after {
+  top: 7px;
+  left: 3px;
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: var(--mainColor);
+}
+
+.order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label::after {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.order-details .payment-box .payment-method p [type="radio"]:checked + label::after {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.order-details .payment-box .default-btn {
+  margin-top: 15px;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .user-actions {
+    padding: 15px 10px 15px 35px;
+  }
+  .user-actions i {
+    font-size: 15px;
+    left: 15px;
+    top: 13px;
+  }
+  .billing-details .title {
+    font-size: 16px;
+  }
+  .billing-details .form-group label {
+    font-size: 13px;
+  }
+  .billing-details .form-group .form-select {
+    height: 45px;
+    font-size: 13px;
+    line-height: 45px;
+  }
+  .order-details {
+    margin-top: 30px;
+  }
+  .order-details .title {
+    font-size: 16px;
+  }
+  .order-details .order-table table tbody tr td {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .order-details .payment-box {
+    padding: 20px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .billing-details .title {
+    font-size: 18px;
+  }
+  .order-details {
+    margin-top: 30px;
+  }
+  .order-details .title {
+    font-size: 18px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=checkout.css.map */
