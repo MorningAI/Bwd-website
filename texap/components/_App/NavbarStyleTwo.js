@@ -33,7 +33,7 @@ const NavbarStyleTwo = () => {
                         <nav className="navbar navbar-expand-md navbar-light bg-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/black-logo.png" alt="logo" />
+                                    <img src="/images/bwd-logo.png" alt="logo" />
                                 </a>
                             </Link>
 
@@ -91,39 +91,7 @@ const NavbarStyleTwo = () => {
                                         </ul>
                                     </li>
 
-                                    <li className="nav-item">
-                                        <Link href="#">
-                                            <a onClick={e => e.preventDefault()} className="dropdown-toggle nav-link">
-                                                Blog
-                                            </a>
-                                        </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/blog-grid" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Grid</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/blog-right-sidebar" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Right Sidebar</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/blog-left-sidebar" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Left Sidebar</a>
-                                                </Link>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                <Link href="/blog-details" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Details</a>
-                                                </Link>
-                                            </li> 
-                                        </ul>
-                                    </li>
+                                    
 
                                     <li className="nav-item">
                                         <Link href="/contact" activeClassName="active">

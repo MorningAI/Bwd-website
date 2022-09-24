@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarStyleThree from '@/components/_App/NavbarStyleThree'
+import NavbarStyleThree from '@/components/_App/NavbarStyleTwo'
 import PageBannerStyle3 from '@/components/Common/PageBannerStyle3'
 import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
 import FooterStyleOne from '@/components/_App/FooterStyleOne'
