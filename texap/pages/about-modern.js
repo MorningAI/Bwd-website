@@ -66,21 +66,6 @@ const AboutModern = () => {
                 </div>
             </div>
 
-            <AppProgressStyle4 />
-
-            <AppDownloadStyle1 />
-
-            <FunfactStyleTwo />
-
-            <ClientFeedbackStyle5 />
-
-            <div className="pt-100">
-                <IntroVideo />
-            </div>
-
-            <TeamMemberStyle2 />
-
-            <PartnerStyle3 />
 
             <SoftwareIntegrations />
 

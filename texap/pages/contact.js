@@ -1,16 +1,16 @@
 import React from 'react'
 import NavbarStyleOne from '@/components/_App/NavbarStyleTwo'
-import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
 import ContactForm from '@/components/Contact/ContactForm'
 import ContactInfo from '@/components/Contact/ContactInfo'
-import FooterStyleOne from '@/components/_App/FooterStyleOne'
+import FooterStyleTwo from '@/components/_App/FooterStyleTwo'
+import PageBannerStyle2 from '@/components/Common/PageBannerStyle2'
  
 const Contact = () => {
     return (
         <>
             <NavbarStyleOne /> 
 
-            <PageBannerStyle1 
+            <PageBannerStyle2 
                 pageTitle="Contact Us"
                 homePageUrl="/"
                 homePageText="Home"
@@ -19,9 +19,9 @@ const Contact = () => {
 
             <ContactForm />
 
-            <ContactInfo />
+            
  
-            <FooterStyleOne />
+            <FooterStyleTwo />
         </>
     )
 }

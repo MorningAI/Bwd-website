@@ -70,61 +70,14 @@ const NavbarStyleTwo = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a onClick={e => e.preventDefault()} className="dropdown-toggle nav-link">
+                                        <Link href="/features">
+                                            <a onClick={toggleNavbar} className=" nav-link">
                                                 Features
                                             </a>
                                         </Link>
 
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/features" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Features 1</a>
-                                                </Link>
-                                            </li> 
-
-                                            <li className="nav-item">
-                                                <Link href="/features-2" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Features 2</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
+                                        
                                     </li>
-
-                                    <li className="nav-item">
-                                        <Link href="#">
-                                            <a onClick={e => e.preventDefault()} className="dropdown-toggle nav-link">
-                                                Blog
-                                            </a>
-                                        </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/blog-grid" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Grid</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/blog-right-sidebar" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Right Sidebar</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/blog-left-sidebar" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Left Sidebar</a>
-                                                </Link>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                <Link href="/blog-details" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Blog Details</a>
-                                                </Link>
-                                            </li> 
-                                        </ul>
-                                    </li>
-
                                     <li className="nav-item">
                                         <Link href="/contact" activeClassName="active">
                                             <a onClick={toggleNavbar} className="nav-link">Contact</a>
@@ -134,9 +87,9 @@ const NavbarStyleTwo = () => {
                             </div>
 
                             <div className="others-options">
-                                <Link href="/contact">
+                                <Link href="/app-download">
                                     <a className="default-btn">
-                                        Get Started
+                                        Get the App
                                     </a>
                                 </Link>
                             </div>
