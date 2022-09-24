@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarStyleOne from '@/components/_App/NavbarStyleOne'
+import NavbarStyleOne from '@/components/_App/NavbarStyleTwo'
 import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
 import ContactForm from '@/components/Contact/ContactForm'
 import ContactInfo from '@/components/Contact/ContactInfo'
