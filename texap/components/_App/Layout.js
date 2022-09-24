@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
  
-                <title>Texap - Next.js Strapi App & SaaS Startup Template</title>
+                <title>Business with diaspora</title>
             </Head>
 
             {children}
