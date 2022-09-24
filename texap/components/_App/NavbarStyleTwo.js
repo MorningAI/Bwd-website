@@ -33,7 +33,7 @@ const NavbarStyleTwo = () => {
                         <nav className="navbar navbar-expand-md navbar-light bg-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/black-logo.png" alt="logo" />
+                                    <img src="/images/bwd-logo.png" alt="logo" />
                                 </a>
                             </Link>
 
@@ -78,6 +78,12 @@ const NavbarStyleTwo = () => {
 
                                         
                                     </li>
+<<<<<<< HEAD
+=======
+
+                                    
+
+>>>>>>> c0058bc28c68e80ef10516efa08b1cffdb1737eb
                                     <li className="nav-item">
                                         <Link href="/contact" activeClassName="active">
                                             <a onClick={toggleNavbar} className="nav-link">Contact</a>
