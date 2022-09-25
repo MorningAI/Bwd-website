@@ -10,6 +10,12 @@ import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
 import ClientFeedbackStyle5 from '@/components/Feedbacks/ClientFeedbackStyle5'
 import FreeTrialStyle3 from '@/components/Common/FreeTrialStyle3'
 import FooterStyleTwo from '@/components/_App/FooterStyleTwo'
+import AppScreenshotsStyle1 from '@/components/AppScreenshots/AppScreenshotsStyle1'
+import AppScreenshotsStyle3 from '@/components/AppScreenshots/AppScreenshotsStyle3'
+import AppProgressStyle1 from '@/components/Common/AppProgressStyle1'
+
+import AppProgressStyle4 from '@/components/Common/AppProgressStyle4'
+
  
 const IndexPage5 = () => {
     return (
@@ -24,6 +30,8 @@ const IndexPage5 = () => {
 
             <KeyFeatures />
 
+            <AppScreenshotsStyle1 />
+            <AppScreenshotsStyle3 />
             <AppScreenshotsStyle5 />
 
             <PricingPlanStyle5 />
@@ -37,7 +45,8 @@ const IndexPage5 = () => {
             <div className="pt-100">
                 <FreeTrialStyle3 />
             </div>
-      
+      <AppProgressStyle1/>
+      <AppProgressStyle4/>
               
             <FooterStyleTwo />
         </>
