@@ -4,7 +4,7 @@ Gradient Banner Area CSS
 .gradient-banner-area {
   z-index: 1;
   position: relative;
-  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
+  background: linear-gradient(76.8deg, #f9f9f9 0%, #1dadff 53.03%, #007bff 100%);
   padding-top: 180px;
   padding-bottom: 100px;
 }
