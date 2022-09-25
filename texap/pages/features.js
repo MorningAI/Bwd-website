@@ -1,14 +1,7 @@
 import React from 'react'
-<<<<<<< HEAD
 import NavbarStyleTwo from '@/components/_App/NavbarStyleTwo'
 import FooterStyleTwo from '@/components/_App/FooterStyleTwo'
 import PageBannerStyle2 from '@/components/Common/PageBannerStyle2'
-=======
-import NavbarStyleThree from '@/components/_App/NavbarStyleTwo'
-import PageBannerStyle3 from '@/components/Common/PageBannerStyle3'
-import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
-import FooterStyleOne from '@/components/_App/FooterStyleOne'
->>>>>>> c0058bc28c68e80ef10516efa08b1cffdb1737eb
  
 const Features = () => {
     return (
