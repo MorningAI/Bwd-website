@@ -1,0 +1,698 @@
+/*================================================
+Main Banner Area CSS
+=================================================*/
+.main-banner {
+    background: linear-gradient(42.99deg, #3F75FF 10.19%, #44A6FF 50.48%, #4ADEFF 94.28%);
+    padding-top: 160px;
+    position: relative;
+    z-index: 1;
+    
+    .content {
+        text-align: center;
+
+        .sub-title {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: var(--whiteColor);
+            display: inline-block;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            padding: 7px 20px;
+        }
+        h1 {
+            color: var(--whiteColor);
+            max-width: 960px;
+            line-height: 1.4;
+            font-size: 48px;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+        }
+        .default-btn {
+            margin-top: 15px;
+            color: var(--blackColor);
+            background-color: var(--whiteColor);
+    
+            &::before {
+                opacity: 0;
+                visibility: hidden;
+            }
+            &:hover {
+                color: var(--whiteColor);
+                background-color: var(--blackColor);
+            }
+        }
+        img {
+            margin-top: 50px;
+            border-radius: 5px;
+            box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.15);
+        }
+    }
+    .divider {
+        height: 300px;
+        bottom: 299px;
+    }
+    &::before {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        content: '';
+        height: 300px;
+        position: absolute;
+        background-color: var(--whiteColor);
+    }
+    .banner-shape3 {
+        bottom: 33%;
+        left: 7%;
+    }
+    .banner-shape8 {
+        bottom: 12%;
+        right: auto;
+        left: 8%;
+    }
+    .banner-shape7 {
+        bottom: -30px;
+        right: 9%;
+    }
+}
+
+/*================================================
+App Download Area CSS
+=================================================*/
+.app-download-inner {
+    &.bg-gradient-color {
+        padding-right: 50px;
+
+        &::before {
+            margin: 0;
+        }
+        .app-download-image {
+            padding-top: 50px;
+        }
+    }
+}
+
+/*================================================
+Features Area CSS
+=================================================*/
+.single-features-item {
+    &.without-hover {
+        padding: 0 0 0 80px;
+        margin-bottom: 40px;
+        
+        .icon {
+            top: 0;
+            left: 0;
+        }
+        &::before {
+            display: none;
+        }
+        &:hover {
+            box-shadow: unset;
+
+            h3 {
+                color: var(--blackColor);
+            }
+            p {
+                color: var(--paragraphColor);
+            }
+        }
+    }
+}
+
+.features-box {
+    &.left {
+        text-align: left;
+        .icon {
+            margin-left: 0;
+            text-align: center;
+        }
+        p {
+            padding: 0;
+        }
+    }
+}
+
+/*================================================
+Screenshots Area CSS
+=================================================*/
+.screenshots-area {
+    &.bg-black {
+        background-color: var(--blackColor);
+
+        .section-title {
+            h2 {
+                color: var(--whiteColor);
+            }
+        }
+    }
+}
+.free-trial-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+.screen-swiper-slides {
+    text-align: center;
+    padding: {
+        left: 100px;
+        right: 100px;
+    };
+    .swiper-cube-shadow {
+        display: none;
+    }
+    .swiper-button-next {
+        right: 0;
+        z-index: 1;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        color: var(--whiteColor);
+        background-color: #393F50;
+
+        &::after {
+            font-size: 18px;
+        }
+        &::before {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            z-index: -1;
+            content: '';
+            border-radius: 50%;
+            visibility: hidden;
+            position: absolute;
+            transition: var(--transition);
+            background: var(--gradientColor);
+        }
+        &:hover {
+            &::before {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    .swiper-button-prev {
+        left: 0;
+        z-index: 1;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        color: var(--whiteColor);
+        background-color: #393F50;
+
+        &::after {
+            font-size: 18px;
+        }
+        &::before {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            z-index: -1;
+            content: '';
+            border-radius: 50%;
+            visibility: hidden;
+            position: absolute;
+            transition: var(--transition);
+            background: var(--gradientColor);
+        }
+        &:hover {
+            &::before {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+/*================================================
+Software Integrations Area CSS
+=================================================*/
+.software-integrations-inner {
+    &.bg-gradient-color {
+        z-index: 1;
+        padding: 50px;
+        position: relative;
+        background: var(--gradientColor);
+
+        &::before {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            content: '';
+            position: absolute;
+            background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+    }
+}
+
+/*================================================
+Pricing Area CSS
+=================================================*/
+.pricing-section-title {
+    &.black-color {
+        .sub-title {
+            background: var(--gradientColor);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2, p {
+            color: var(--blackColor);
+        }
+        .nav-tabs {
+            background-color: #f9f9f9;
+        }
+    }
+}
+.single-pricing-table {
+    &.with-border {
+        border: 1px solid #eeeeee;
+
+        &:hover {
+            border-color: var(--whiteColor);
+        }
+    }
+}
+
+/*================================================
+Feedback Area CSS
+=================================================*/
+.feedback-area {
+    &.bg-gradient-color {
+        z-index: 1;
+        position: relative;
+        background-color: var(--whiteColor);
+
+        &::before {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 50%;
+            content: '';
+            z-index: -1;
+            position: absolute;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+        }
+    }
+}
+.feedback-slides-two {
+    &.owl-theme {
+        .single-feedback-box {
+            background-color: var(--whiteColor);
+            box-shadow: unset;
+        }
+        .owl-nav {
+            &.disabled+.owl-dots {
+                margin-top: 20px;
+            }
+        }
+        .owl-dots {
+            .owl-dot {
+                span {
+                    width: 15px;
+                    height: 15px;
+                    margin: 0 4px;
+                    border-radius: 50%;
+                    position: relative;
+                    background-color: transparent;
+        
+                    &::before {
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        content: '';
+                        opacity: 0.1;
+                        position: absolute;
+                        border-radius: 50%;
+                        background-color: #0064FB;
+                        transition: var(--transition);
+                    }
+                    &::after {
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        opacity: 0;
+                        content: '';
+                        position: absolute;
+                        border-radius: 50%;
+                        visibility: hidden;
+                        transition: var(--transition);
+                        transform: matrix(-1, 0, 0, 1, 0, 0);
+                        background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+                    }
+                }
+                &:hover, &.active {
+                    span {
+                        &::before {
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+                        &::after {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.feedback-section-title {
+    position: relative;
+    top: 60px;
+
+    .sub-title {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 12px;
+        letter-spacing: 0.1em;
+        color: var(--whiteColor);
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+        color: var(--whiteColor);
+    }
+}
+
+
+/* Max width 430px */
+@media only screen and (max-width: 430px) {
+    .features-box.left {
+        text-align: left;
+        border: 1px solid #eee;
+        padding: 25px;
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .main-banner {
+        padding-top: 135px;
+
+        .divider {
+            height: 100px;
+            bottom: -1px;
+        }
+        &::before {
+            display: none;
+        }
+        .content {
+            .sub-title {
+                margin-bottom: 15px;
+                padding: 5px 15px;
+            }
+            h1 {
+                font-size: 25px;
+                max-width: 100%;
+            }
+            .default-btn {
+                margin-top: 10px;
+                box-shadow: unset;
+            }
+            img {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .single-features-item {
+        &.without-hover {
+            padding: 0 0 0 70px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .app-download-inner {
+        &.bg-gradient-color {
+            padding: {
+                right: 15px;
+                bottom: 0;
+            };
+            .app-download-image {
+                padding-top: 0;
+            }
+        }
+    }
+
+    .screen-swiper-slides {
+        padding: {
+            left: 40px;
+            right: 40px;
+        };
+        .swiper-button-prev {
+            width: 30px;
+            height: 30px;
+
+            &::after {
+                font-size: 13px;
+            }
+        }
+        .swiper-button-next {
+            width: 30px;
+            height: 30px;
+
+            &::after {
+                font-size: 13px;
+            }
+        }
+    }
+    .free-trial-btn {
+        margin-top: 30px;
+    }
+
+    .software-integrations-inner {
+        &.bg-gradient-color {
+            padding: 60px 15px;
+        }
+    }
+
+    .feedback-area {
+        &.bg-gradient-color {
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+    .feedback-section-title {
+        top: 0;
+        text-align: center;
+        margin-bottom: 40px;
+
+        .sub-title {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .feedback-slides-two {
+        &.owl-theme {
+            .owl-nav {
+                &.disabled + .owl-dots {
+                    margin-top: 5px;
+                }
+            }
+            .owl-dots {
+                .owl-dot {
+                    span {
+                        &::after {
+                            background: var(--whiteColor);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .single-features-item {
+        &.without-hover {
+            padding: 0;
+        }
+    }
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .main-banner {
+        padding-top: 150px;
+
+        &::before {
+            height: 100px;
+        }
+        .divider {
+            height: 140px;
+            bottom: 99px;
+        }
+        .content {
+            h1 {
+                font-size: 32px;
+                max-width: 100%;
+            }
+            .sub-title {
+                font-size: 13px;
+                padding: 6px 20px;
+            }
+            .default-btn {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .app-download-inner {
+        &.bg-gradient-color {
+            padding: {
+                right: 30px;
+                bottom: 0;
+            };
+            .app-download-image {
+                padding-top: 5px;
+            }
+        }
+    }
+
+    .screen-swiper-slides {
+        padding: {
+            left: 55px;
+            right: 55px;
+        };
+    }
+    .free-trial-btn {
+        margin-top: 40px;
+    }
+
+    .software-integrations-inner {
+        &.bg-gradient-color {
+            padding: 80px 30px;
+        }
+    }
+
+    .feedback-area {
+        &.bg-gradient-color {
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+    .feedback-section-title {
+        top: 0;
+        text-align: center;
+        margin-bottom: 50px;
+
+        .sub-title {
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .feedback-slides-two {
+        &.owl-theme {
+            .owl-nav {
+                &.disabled + .owl-dots {
+                    margin-top: 5px;
+                }
+            }
+            .owl-dots {
+                .owl-dot {
+                    span {
+                        &::after {
+                            background: var(--whiteColor);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .main-banner {
+        .divider {
+            height: 200px;
+            bottom: 199px;
+        }
+        &::before {
+            height: 200px;
+        }
+    }
+
+    .app-download-inner {
+        &.bg-gradient-color {
+            padding-right: 30px;
+
+            .app-download-image {
+                padding-top: 0;
+            }
+        }
+    }
+
+    .screen-swiper-slides {
+        padding: {
+            left: 70px;
+            right: 70px;
+        };
+    }
+
+    .software-integrations-inner {
+        &.bg-gradient-color {
+            padding: 50px 0 50px 30px;
+        }
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .software-integrations-inner {
+        &.bg-gradient-color {
+            padding: 50px 30px;
+        }
+    }
+
+}
+
+/* Min width 1550px */
+@media only screen and (min-width: 1550px) {
+
+    .main-banner {
+        .banner-shape3 {
+            bottom: 32%;
+            left: 15%;
+        }
+        .banner-shape8 {
+            bottom: 12%;
+            right: auto;
+            left: 16%;
+        }
+        .banner-shape7 {
+            bottom: -30px;
+            right: 16%;
+        }
+    }
+
+}

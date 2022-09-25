@@ -1,0 +1,823 @@
+/*================================================
+Gradient Main Banner Area CSS
+=================================================*/
+.gradient-main-banner {
+    .container-fluid {
+        padding: {
+            left: 30px;
+            right: 30px;
+        };
+    }
+}
+.gradient-main-banner-inner {
+    z-index: 1;
+    position: relative;
+    background: var(--gradientColor);
+    padding: {
+        top: 100px;
+        left: 60px;
+        right: 60px;
+    };
+    .content {
+        padding-right: 15px;
+        position: relative;
+        top: 100px;
+
+        .sub-title {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: var(--whiteColor);
+            display: inline-block;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            padding: 7px 20px;
+        }
+        h1 {
+            color: var(--whiteColor);
+            margin-bottom: 20px;
+            line-height: 1.4;
+            font-size: 48px;
+        }
+        p {
+            color: var(--whiteColor);
+            max-width: 560px;
+            font-size: 16px;
+            opacity: .9;
+        }
+        .default-btn {
+            margin-top: 10px;
+            color: var(--whiteColor);
+            background-color: var(--blackColor);
+    
+            &::before {
+                opacity: 0;
+                visibility: hidden;
+            }
+            &:hover {
+                color: var(--blackColor);
+                background-color: var(--whiteColor);
+            }
+        }
+    }
+    .image {
+        text-align: center;
+    }
+    .banner-shape3 {
+        bottom: 30%;
+        left: auto;
+        right: .5%;
+    }
+}
+.banner-shape9 {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 45%;
+
+    img {
+        animation: moveleftbounce 5s linear infinite;
+    }
+}
+.banner-shape10 {
+    position: absolute;
+    bottom: 10px;
+    z-index: -1;
+    right: 1%;
+
+    img {
+        animation: opacitychange 4s linear 1s infinite;
+    }
+}
+.banner-shape11 {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+/*================================================
+Testimonials Area CSS
+=================================================*/
+.testimonials-image {
+    padding-right: 15px;
+    text-align: center;
+}
+.testimonials-content {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 30px;
+    margin: {
+        left: 15px;
+        bottom: 30px;
+    };
+    .sub-title {
+        display: block;
+        margin-bottom: 10px;
+        background: var(--gradientColor);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+    }
+    h2 {
+        line-height: 1.4;
+        margin-bottom: 0;
+        font-size: 36px;
+    }
+}
+.testimonials-slides {
+    margin-left: 15px;
+    max-width: 680px;
+
+    .content {
+        h3 {
+            font-size: 20px;
+            margin-bottom: 9px;
+        }
+        span {
+            display: block;
+            margin-bottom: 20px;
+            color: var(--mainColor);
+        }
+        p {
+            z-index: 1;
+            font-size: 20px;
+            position: relative;
+            
+            &::before {
+                opacity: .09;
+                content: "\EC51";
+                font-family: remixicon;
+                position: absolute;
+                font-size: 100px;
+                line-height: 1;
+                z-index: -1;
+                top: -20px;
+                left: 0;
+            }
+            &::after {
+                opacity: .09;
+                content: "\EC52";
+                font-family: remixicon;
+                position: absolute;
+                font-size: 100px;
+                line-height: 1;
+                bottom: -20px;
+                z-index: -1;
+                right: 0;
+            }
+        }
+    }
+    &.owl-theme {
+        .owl-nav {
+            margin-top: 20px;
+            text-align: start;
+
+            [class*=owl-] {
+                position: relative;
+                font-size: 25px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: #f1f1f1;
+                color: var(--mainColor);
+                margin: 0;
+                line-height: 42px;
+                transition: var(--transition);
+                z-index: 1;
+                padding-top: 0;
+                padding-bottom: 0;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    border-radius: 50%;
+                    top: 0;
+                    bottom: 0;
+                    z-index: -1;
+                    background: var(--gradientColor);
+                    transition: var(--transition);
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                &.owl-next {
+                    margin-left: 10px;
+                }
+                &:hover {
+                    background-color: #f9f9f9;
+                    color: var(--whiteColor);
+                    border-radius: 50%;
+
+                    &::before {
+                        opacity: 1;
+                        border-radius: 50%;
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*================================================
+Funfacts Area CSS
+=================================================*/
+.funfacts-box {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    background: var(--gradientColor);
+
+    .icon {
+        line-height: 1;
+        font-size: 55px;
+        margin-bottom: 15px;
+        color: var(--whiteColor);
+    }
+    p {
+        opacity: .95;
+        line-height: 1;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: var(--whiteColor);
+    }
+    h3 {
+        line-height: 1;
+        font-size: 40px;
+        margin-bottom: 0;
+        color: var(--whiteColor);
+
+        .sign {
+            position: relative;
+            top: 2px;
+        }
+    }
+    &.bg1 {
+        background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+    }
+    &.bg2 {
+        background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+    }
+    &.bg3 {
+        background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+    }
+}
+
+/*================================================
+Features Area CSS
+=================================================*/
+.features-inner {
+    &.gradient-color {
+        background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
+
+        .features-box {
+            .icon {
+                padding: 0;
+                width: auto;
+                height: auto;
+                line-height: 1;
+                margin-bottom: 15px;
+                box-shadow: unset !important;
+                background: transparent !important;
+                color: var(--whiteColor) !important;
+
+                &::before {
+                    display: none;
+                }
+                &::after {
+                    display: none;
+                }
+                i {
+                    transform: translateY(0);
+                    position: relative;
+                    top: 0;
+                }
+            }
+            h3 {
+                color: var(--whiteColor);
+            }
+        }
+    }
+}
+.list-of-features {
+    padding-left: 15px;
+
+    .row {
+        .col-lg-6 {
+            &:nth-child(2) {
+                margin-top: 25px;
+            }
+            &:nth-child(3) {
+                margin-top: -25px;
+            }
+        }
+    }
+    .features-item {
+        padding: 20px;
+    }
+}
+
+/*================================================
+Screenshots Area CSS
+=================================================*/
+.screenshots-tabs {
+    text-align: center;
+    max-width: 1170px;
+    margin: {
+        left: auto;
+        right: auto;
+    };
+    .react-tabs__tab-list {
+        border-bottom: 1px solid #444444;
+        text-align: center;
+
+        .react-tabs__tab {
+            display: inline-block;
+            margin: {
+                left: 5px;
+                right: 5px;
+            };
+            transition: var(--transition);
+            color: var(--whiteColor);
+            position: relative;
+            font: {
+                size: 16px;
+                weight: 600;
+            };
+            padding: {
+                top: 10px;
+                left: 50px;
+                right: 25px;
+                bottom: 12px;
+            };
+            i {
+                transform: translateY(-50%);
+                position: absolute;
+                margin-top: -1px;
+                left: 25px;
+                top: 50%;
+            }
+            &.react-tabs__tab--selected {
+                background: var(--gradientColor);
+                border-color: transparent;
+                color: var(--whiteColor);
+            }
+            &:hover {
+                border-color: #444444;
+            }
+            &:focus::after {
+                display: none;
+            }
+        }
+    }
+    .react-tabs__tab-panel {
+        margin-top: 30px;
+
+        img {
+            filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
+        }
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .gradient-main-banner {
+        .container-fluid {
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+                right: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .gradient-main-banner-inner {
+        padding: {
+            top: 60px;
+            left: 15px;
+            right: 15px;
+        };
+        .content {
+            text-align: center;
+            padding-right: 0;
+            top: 0;
+            
+            .sub-title {
+                margin-bottom: 15px;
+                padding: 5px 15px;
+                font-size: 12px;
+            }
+            h1 {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+            .default-btn {
+                margin-top: 5px;
+            }
+            p {
+                max-width: 100%;
+                font-size: 13px;
+            }
+        }
+        .image {
+            margin-top: 30px;
+        }
+    }
+    .banner-shape9 {
+        display: none;
+    }
+
+    .list-of-features {
+        padding-left: 0;
+        margin-top: 30px;
+
+        .row {
+            .col-lg-6 {
+                &:nth-child(2) {
+                    margin-top: 0;
+                }
+                &:nth-child(3) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    .testimonials-image {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .testimonials-content {
+        padding-bottom: 25px;
+        text-align: center;
+        margin: {
+            left: 0;
+            bottom: 25px;
+        };
+        .sub-title {
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .testimonials-slides {
+        margin-left: 0;
+        max-width: 100%;
+        text-align: center;
+
+        .content {
+            h3 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        &.owl-theme {
+            .owl-nav {
+                text-align: center;
+
+                [class*=owl-] {
+                    width: 35px;
+                    height: 35px;
+                    font-size: 20px;
+                    line-height: 35px;
+                    margin: {
+                        left: 3px !important;
+                        right: 3px !important;
+                    };
+                }
+            }
+        }
+    }
+
+    .screenshots-tabs {
+        max-width: 100%;
+
+        .react-tabs__tab-list {
+           
+            .react-tabs__tab {
+                margin-bottom: 15px;
+                font-size: 13px;
+                margin-bottom: 10px;
+                border-radius: 3px;
+                background-color: rgba(255, 255, 255, 0.10);
+                padding: {
+                    top: 8px;
+                    left: 35px;
+                    right: 15px;
+                    bottom: 8px;
+                };
+                i {
+                    left: 15px;
+                }
+            }
+        }
+    }
+
+    .funfacts-box {
+        padding: 20px 15px;
+
+        .icon {
+            font-size: 40px;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .gradient-main-banner-inner {
+        padding: {
+            left: 25px;
+            right: 25px;
+        };
+    }
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .gradient-main-banner {
+        .container-fluid {
+            max-width: 720px;
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+                right: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .gradient-main-banner-inner {
+        padding: {
+            left: 25px;
+            right: 25px;
+            top: 80px;
+        };
+        .content {
+            text-align: center;
+            padding-right: 0;
+            top: 0;
+
+            h1 {
+                font-size: 32px;
+                margin-bottom: 15px;
+            }
+            .sub-title {
+                font-size: 13px;
+                padding: 6px 20px;
+            }
+            p {
+                font-size: 14px;
+                max-width: 500px;
+                margin: {
+                    left: auto;
+                    right: auto;
+                };
+            }
+            .default-btn {
+                margin-top: 8px;
+            }
+        }
+        .image {
+            margin-top: 30px;
+        }
+    }
+
+    .list-of-features {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .testimonials-image {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .testimonials-content {
+        padding-left: 0;
+        text-align: center;
+
+        .sub-title {
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .testimonials-slides {
+        margin-left: 0;
+        max-width: 100%;
+
+        .content {
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        &.owl-theme {
+            .owl-nav {
+                text-align: center;
+            }
+        }
+    }
+
+    .screenshots-tabs {
+        max-width: 100%;
+
+        .react-tabs__tab-list {
+            .react-tabs__tab {
+                margin: {
+                    left: 3px;
+                    right: 3px;
+                };
+                font-size: 14px;
+                padding: {
+                    top: 10px;
+                    left: 40px;
+                    right: 20px;
+                    bottom: 10px;
+                };
+                i {
+                    margin-top: 0;
+                    left: 20px;
+                }
+            }
+        }
+    }
+
+    .funfacts-box {
+        .icon {
+            font-size: 45px;
+        }
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .gradient-main-banner {
+        .container-fluid {
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+                right: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .gradient-main-banner-inner {
+        padding: {
+            left: 30px;
+            right: 30px;
+        };
+        .content {
+            padding-right: 0;
+            top: 0;
+
+            h1 {
+                font-size: 38px;
+            }
+            p {
+                max-width: 100%;
+                font-size: 14px;
+            }
+        }
+    }
+    .banner-shape10 {
+        right: 0;
+    }
+
+    .list-of-features {
+        padding-left: 0;
+
+        .features-item {
+            h3 {
+                font-size: 18px;
+            }
+            &.with-border {
+                padding: 20px 15px;
+            }
+        }
+    }
+
+    .testimonials-image {
+        padding-right: 0;
+    }
+    .testimonials-content {
+        padding-bottom: 20px;
+        margin: {
+            left: 0;
+            bottom: 20px;
+        };
+    }
+    .testimonials-slides {
+        margin-left: 0;
+        max-width: 100%;
+
+        .content {
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .screenshots-tabs {
+        max-width: 100%;
+    }
+
+    .funfacts-box {
+        padding: 20px;
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .gradient-main-banner {
+        .container-fluid {
+            padding: {
+                left: 30px;
+                right: 30px;
+            };
+        }
+    }
+    .gradient-main-banner-inner {
+        padding: {
+            left: 40px;
+            right: 40px;
+        };
+        .content {
+            padding-right: 0;
+            top: 30px;
+
+            p {
+                max-width: 100%;
+                font-size: 15px;
+            }
+            h1 {
+                font-size: 44px;
+            }
+        }
+    }
+
+    .list-of-features {
+        padding-left: 0;
+
+        .features-item {
+            &.with-border {
+                padding: 25px;
+            }
+        }
+    }
+
+    .screenshots-tabs {
+        max-width: 100%;
+    }
+
+}
+
+/* Min width 1550px */
+@media only screen and (min-width: 1550px) {
+
+    .gradient-main-banner {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+    .gradient-main-banner-inner {
+        padding: {
+            left: 100px;
+            right: 100px;
+        };
+        .banner-shape3 {
+            right: 4%;
+        }
+    }
+    .banner-shape10 {
+        right: 5%;
+    }
+
+}
