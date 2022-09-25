@@ -10,12 +10,8 @@ This files table contents are outlined below >>>>>
 ****************************************************/
 /* All Pages and Components CSS File Imported here */
 @import url(../css/pages-and-components-css/navbar.css);
-@import url(../css/pages-and-components-css/home-one.css);
-@import url(../css/pages-and-components-css/home-two.css);
-@import url(../css/pages-and-components-css/home-three.css);
-@import url(../css/pages-and-components-css/home-four.css);
+
 @import url(../css/pages-and-components-css/home-five.css);
-@import url(../css/pages-and-components-css/home-six.css);
 @import url(../css/pages-and-components-css/team.css);
 @import url(../css/pages-and-components-css/privacy-policy.css);
 @import url(../css/pages-and-components-css/terms-conditions.css);
