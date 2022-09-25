@@ -11,7 +11,6 @@ const Preloader = () => {
                     </div>
                 </div>
             </div>
-
             <style jsx>{`
                 .preloader-area {
                     position: fixed;

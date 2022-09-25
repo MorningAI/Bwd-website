@@ -9,7 +9,6 @@ import PricingPlanStyle5 from '@/components/PricingPlan/PricingPlanStyle5'
 import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
 import ClientFeedbackStyle5 from '@/components/Feedbacks/ClientFeedbackStyle5'
 import FreeTrialStyle3 from '@/components/Common/FreeTrialStyle3'
-import BlogPost from '@/components/Common/BlogPost'
 import FooterStyleTwo from '@/components/_App/FooterStyleTwo'
  
 const IndexPage5 = () => {
@@ -38,9 +37,8 @@ const IndexPage5 = () => {
             <div className="pt-100">
                 <FreeTrialStyle3 />
             </div>
-
-            <BlogPost />
-        
+      
+              
             <FooterStyleTwo />
         </>
     )
