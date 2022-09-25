@@ -16,11 +16,11 @@ const FooterStyleTwo = () => {
                             <div className="single-footer-widget">
                                 <Link href="/">
                                     <a className="logo">
-                                        <img src="/images/black-logo.png" alt="logo" />
+                                        <img src="/images/bwd-logo.png" alt="logo" />
                                     </a>
                                 </Link>
 
-                                <p>Best solution for your it startup business, consecteturadipiscing elit. Scelerisque amet odio velit,  auctor nam elit nulla.</p>
+                                <p>Business with diaspora, unlimited possibilities </p>
 
                                 <ul className="social-links">
                                     <li>
@@ -36,11 +36,6 @@ const FooterStyleTwo = () => {
                                     <li>
                                         <a href="https://www.linkedin.com/" target="_blank">
                                             <i className="ri-linkedin-fill"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.messenger.com/" target="_blank">
-                                            <i className="ri-messenger-fill"></i>
                                         </a>
                                     </li>
                                     <li>
@@ -67,11 +62,6 @@ const FooterStyleTwo = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/privacy-policy">
-                                            <a>Refund Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
                                         <Link href="/faq">
                                             <a>FAQ's</a>
                                         </Link>
@@ -87,7 +77,7 @@ const FooterStyleTwo = () => {
 
                         <div className="col-lg-2 col-md-3 col-sm-6">
                             <div className="single-footer-widget">
-                                <h3>Support</h3>
+                                <h3>Terms of use</h3>
                                 <ul className="links-list">
                                     <li>
                                         <Link href="/services">
@@ -95,38 +85,11 @@ const FooterStyleTwo = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">
-                                            <a>Support</a>
-                                        </Link>
-                                    </li>
-                                    <li>
                                         <Link href="/privacy-policy">
                                             <a>Privacy Policy</a>
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link href="/faq">
-                                            <a>FAQ's</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">
-                                            <a>Contact</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-2 col-md-3 col-sm-6">
-                            <div className="single-footer-widget">
-                                <h3>Useful Links</h3>
-                                <ul className="links-list">
-                                    <li>
-                                        <Link href="/privacy-policy">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
+                               
                                     <li>
                                         <Link href="/privacy-policy">
                                             <a>Return Policy</a>
@@ -138,13 +101,8 @@ const FooterStyleTwo = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/how-it-works">
-                                            <a>How It Works?</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">
-                                            <a>Contact Us</a>
+                                        <Link href="/faq">
+                                            <a>FAQ's</a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -173,7 +131,7 @@ const FooterStyleTwo = () => {
                     </div>
                     
                     <div className="copyright-area">
-                        <p>Copyright &copy; {currentYear} <strong>Texap</strong>. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+                        <p>Copyright &copy; {currentYear} <strong>Business With Diaspora</strong>. All Rights Reserved by <a href="https://morningai.net/" target="_blank">Morning AI</a></p>
                     </div>
                 </div>
             </div>

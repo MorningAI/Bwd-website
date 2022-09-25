@@ -3,7 +3,7 @@ import NavbarStyleOne from '@/components/_App/NavbarStyleOne'
 import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
 import AppDownloadStyle1 from '@/components/Common/AppDownloadStyle1'
 import KeyFeatures from '@/components/HomeDemo1/KeyFeatures'
-import FooterStyleOne from '@/components/_App/FooterStyleOne' 
+import FooterStyleTwo from '@/components/_App/FooterStyleTwo' 
  
 const Services = () => {
     return (
@@ -89,7 +89,7 @@ const Services = () => {
                 <AppDownloadStyle1 />
             </div>
  
-            <FooterStyleOne />
+            <FooterStyleTwo />
         </>
     )
 }
