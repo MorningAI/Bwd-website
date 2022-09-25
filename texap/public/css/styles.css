@@ -35,10 +35,10 @@ This files table contents are outlined below >>>>>
 :root {
   --fontSize: 14px;
   --transition: .5s;
-  --mainColor: #ED2775;
+  --mainColor: #007bff;
   --whiteColor: #ffffff;
   --blackColor: #262A37;
-  --gradientColor: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  --gradientColor: linear-gradient(76.8deg, #1dadff 53.03%, #007bff 100%);
   --paragraphColor: #716c80;
   --fontFamily: 'Inter', sans-serif;
   scroll-behavior: inherit;
@@ -148,8 +148,8 @@ p:last-child {
   color: var(--whiteColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  -webkit-box-shadow: 0px 12px 35px rgba(29,173,255,0.25);
+          box-shadow: 0px 12px 35px rgba(29,173,255,0.25);
   font-size: var(--fontSize);
   font-weight: 600;
 }
