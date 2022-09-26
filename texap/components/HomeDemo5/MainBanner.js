@@ -9,8 +9,9 @@ const MainBanner = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="gradient-banner-content">
-                                <h1>Manage All of Your Stuff Using a Texap</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id tincidunt eifend odio viverra diam aliquet donec again.</p>
+                                <h1> develop the community contribution of diasporas in the world</h1>
+                                <p>The communication relay between members of the diaspora, and the 
+                                    community of their native countries and other countries.</p>
                                 
                                 <form onSubmit={e => e.preventDefault()}>
                                     <input 

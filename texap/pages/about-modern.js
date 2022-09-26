@@ -21,22 +21,22 @@ const AboutModern = () => {
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content">
                                 <span className="sub-title">ABOUT US</span>
-                                <h2>Most Probably You Are Getting Best App Ever</h2>
-                                <p>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began.</p>
-                                
+                                <h2>Most Probably You Are Getting The Best App Ever</h2>
+
                                 <div className="features-text">
                                     <h6>Our App</h6>
-                                    <p>Most provabily best you can trust on it, just log in with your mail account from play store and using whatever you want for your business.</p>
+                                    <p>Our app will be the relay between members of the diaspora, and the 
+                                    community of their native countries and other countries to enhance business opportunities and knowledge sharing.</p>
                                 </div>
 
                                 <div className="features-text">
                                     <h6>Our Mission</h6>
-                                    <p>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy of your business purpose text.</p>
+                                    <p>Is to develop the community contribution of diasporas in the world.</p>
                                 </div>
 
                                 <div className="btn-box">
                                     <Link href="https://play.google.com/store/apps">
-                                        <a className="default-btn">Start Free Trial</a>
+                                        <a className="default-btn">Get the app</a>
                                     </Link>
                                     <Link href="/features">
                                         <a className="link-btn">See All Features</a>

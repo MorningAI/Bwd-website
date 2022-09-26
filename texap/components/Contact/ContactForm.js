@@ -7,7 +7,6 @@ const ContactForm = () => {
                 <div className="container">
                     <div className="section-title">
                         <h2>Get in Touch</h2>
-                        <p>The IT industry offers a sea of options, from platforms, programming languages methodologies, technologies, tools, and more.</p>
                     </div>
 
                     <div className="contact-form">
