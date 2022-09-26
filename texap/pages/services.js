@@ -1,16 +1,16 @@
 import React from 'react'
-import NavbarStyleOne from '@/components/_App/NavbarStyleOne'
-import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
+
 import AppDownloadStyle1 from '@/components/Common/AppDownloadStyle1'
-import KeyFeatures from '@/components/HomeDemo1/KeyFeatures'
 import FooterStyleTwo from '@/components/_App/FooterStyleTwo' 
+import NavbarStyleTwo from '@/components/_App/NavbarStyleTwo'
+import PageBannerStyle2 from '@/components/Common/PageBannerStyle2'
  
 const Services = () => {
     return (
         <>
-            <NavbarStyleOne /> 
+            <NavbarStyleTwo/> 
 
-            <PageBannerStyle1 
+            <PageBannerStyle2 
                 pageTitle="Services"
                 homePageUrl="/"
                 homePageText="Home"
@@ -83,7 +83,6 @@ const Services = () => {
                 </div>
             </div>
 
-            <KeyFeatures />
 
             <div className="ptb-100">
                 <AppDownloadStyle1 />

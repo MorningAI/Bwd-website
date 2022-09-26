@@ -57,11 +57,6 @@ const FooterStyleTwo = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/features">
-                                            <a>Core Services</a>
-                                        </Link>
-                                    </li>
-                                    <li>
                                         <Link href="/faq">
                                             <a>FAQ's</a>
                                         </Link>
@@ -80,16 +75,10 @@ const FooterStyleTwo = () => {
                                 <h3>Terms of use</h3>
                                 <ul className="links-list">
                                     <li>
-                                        <Link href="/services">
-                                            <a>Services</a>
-                                        </Link>
-                                    </li>
-                                    <li>
                                         <Link href="/privacy-policy">
                                             <a>Privacy Policy</a>
                                         </Link>
                                     </li>
-                               
                                     <li>
                                         <Link href="/privacy-policy">
                                             <a>Return Policy</a>
@@ -98,11 +87,6 @@ const FooterStyleTwo = () => {
                                     <li>
                                         <Link href="/terms-conditions">
                                             <a>Terms & Conditions</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/faq">
-                                            <a>FAQ's</a>
                                         </Link>
                                     </li>
                                 </ul>

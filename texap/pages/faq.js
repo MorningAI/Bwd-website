@@ -1,7 +1,4 @@
 import React from 'react'
-import NavbarStyleOne from '@/components/_App/NavbarStyleOne'
-import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
-import FooterStyleOne from '@/components/_App/FooterStyleOne'
 import {
     Accordion,
     AccordionItem,
@@ -9,13 +6,16 @@ import {
     AccordionItemPanel,
     AccordionItemButton
 } from 'react-accessible-accordion'
+import PageBannerStyle2 from '@/components/Common/PageBannerStyle2'
+import NavbarStyleTwo from '@/components/_App/NavbarStyleTwo'
+import FooterStyleTwo from '@/components/_App/FooterStyleTwo'
  
 const FAQ = () => {
     return (
         <>
-            <NavbarStyleOne /> 
+            <NavbarStyleTwo /> 
 
-            <PageBannerStyle1 
+            <PageBannerStyle2 
                 pageTitle="Frequently Asked Questions"
                 homePageUrl="/"
                 homePageText="Home"
@@ -175,7 +175,7 @@ const FAQ = () => {
                 </div>
             </div>
  
-            <FooterStyleOne />
+            <FooterStyleTwo />
         </>
     )
 }

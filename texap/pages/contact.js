@@ -16,7 +16,8 @@ const Contact = () => {
                 homePageText="Home"
                 activePageText="Contact Us"
             />
-
+            
+            <ContactForm />
             
 
             

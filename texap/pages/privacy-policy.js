@@ -1,15 +1,15 @@
 import React from 'react'
-import NavbarStyleOne from '@/components/_App/NavbarStyleOne'
-import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
 import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
-import FooterStyleOne from '@/components/_App/FooterStyleOne'
+import NavbarStyleTwo from '@/components/_App/NavbarStyleTwo'
+import PageBannerStyle2 from '@/components/Common/PageBannerStyle2'
+import FooterStyleTwo from '@/components/_App/FooterStyleTwo'
  
 const PrivacyPolicy = () => {
     return (
         <>
-            <NavbarStyleOne /> 
+            <NavbarStyleTwo /> 
 
-            <PageBannerStyle1 
+            <PageBannerStyle2 
                 pageTitle="Privacy Policy"
                 homePageUrl="/"
                 homePageText="Home"
@@ -57,10 +57,8 @@ const PrivacyPolicy = () => {
                     </div>
                 </div>
             </div>
-
-            <AppDownloadStyle2 />
  
-            <FooterStyleOne />
+            <FooterStyleTwo />
         </>
     )
 }

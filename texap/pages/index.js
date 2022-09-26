@@ -24,7 +24,7 @@ const IndexPage5 = () => {
             <div className="pt-100">
                 <AppDownloadStyle2 />
             </div>
-            <ContactForm />
+          
 
             
             <div className="pt-100">
