@@ -52,7 +52,7 @@ const FooterStyleTwo = () => {
                                 <h3>Company</h3>
                                 <ul className="links-list">
                                     <li>
-                                        <Link href="/about-simple">
+                                        <Link href="/about-modern">
                                             <a>About Us</a>
                                         </Link>
                                     </li>
@@ -61,11 +61,11 @@ const FooterStyleTwo = () => {
                                             <a>FAQ's</a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/feedback">
                                             <a>Reviews</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>

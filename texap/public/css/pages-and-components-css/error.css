@@ -2,7 +2,6 @@
 .error-area {
   z-index: 1;
   position: relative;
-  background-image: url(/images/error-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +15,7 @@
 .error-content p {
   font-size: 16px;
   max-width: 550px;
-  color: var(--whiteColor);
+  color: var(--blackColor);
   margin-top: 35px;
   margin-bottom: 0;
   margin-left: auto;

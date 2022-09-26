@@ -1,14 +1,19 @@
 /*================================================
 Gradient Banner Area CSS
 =================================================*/
+
+
 .gradient-banner-area {
   z-index: 1;
   position: relative;
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(to right,#e9e9e9  , #ccc,#1dadfa );
   padding-top: 180px;
   padding-bottom: 100px;
 }
 
+ /* fallback for old browsers /
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  / Chrome 10-25, Safari 5.1-6 /
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 .gradient-banner-content {
   padding-right: 15px;
 }
