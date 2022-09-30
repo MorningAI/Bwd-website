@@ -7,6 +7,8 @@ import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
 import FreeTrialStyle3 from '@/components/Common/FreeTrialStyle3'
 import FooterStyleTwo from '@/components/_App/FooterStyleTwo'
 import AppProgressStyle1 from '@/components/Common/AppProgressStyle1'
+import KeyFeatures from '@/components/HomeDemo5/KeyFeatures'
+import ContactForm from "@/components/Contact/ContactForm";
 
  
 const IndexPage5 = () => {
@@ -19,12 +21,17 @@ const IndexPage5 = () => {
             <AboutUsArea />
 
             <AppScreenshotsStyle5 />
-            
+
+            <KeyFeatures/>
+
             <div className="pt-100">
                 <AppDownloadStyle2 />
             </div>
+
+
           
       <AppProgressStyle1/>
+      <ContactForm/>
               
             <FooterStyleTwo />
         </>

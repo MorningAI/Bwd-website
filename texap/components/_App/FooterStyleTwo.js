@@ -93,25 +93,7 @@ const FooterStyleTwo = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-footer-widget">
-                                <h3>Newsletter</h3>
-                                <p>Best solution for your it startup business, consecteturadipiscing elit.</p>
-
-                                <form className="newsletter-form" onSubmit={e => e.preventDefault()}>
-                                    <input 
-                                        type="text" 
-                                        className="input-newsletter" 
-                                        placeholder="Your Email" 
-                                        name="EMAIL" 
-                                        required 
-                                    />
-                                    <button type="submit">
-                                        <i className="ri-send-plane-2-line"></i>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
+                        
                     </div>
                     
                     <div className="copyright-area">

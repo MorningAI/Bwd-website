@@ -25,7 +25,7 @@
 }
 
 .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item a {
-  color: var(--blackColor);
+  color: var(--mainColor);
 }
 
 .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item a.active {
@@ -255,6 +255,7 @@
   font-size: inherit;
   line-height: 1;
   padding: 0;
+  width: 8em;
 }
 
 .texap-nav .navbar ul {

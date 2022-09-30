@@ -13,7 +13,7 @@ const MainBanner = () => {
                                 <p>The communication relay between members of the diaspora, and the 
                                     community of their native countries and other countries.</p>
                                 
-                                <form onSubmit={e => e.preventDefault()}>
+                                {/* <form onSubmit={e => e.preventDefault()}>
                                     <input 
                                         type="text" 
                                         className="input-newsletter" 
@@ -21,7 +21,7 @@ const MainBanner = () => {
                                         name="email" 
                                     />
                                     <button type="submit" className="default-btn">Get Started</button>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
 

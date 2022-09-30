@@ -62,7 +62,7 @@ const NavbarStyleTwo = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/about-modern">
+                                        <Link href="/about-area">
                                             <a onClick={toggleNavbar}  className=" nav-link">
                                                 About Us
                                             </a>
