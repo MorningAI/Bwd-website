@@ -28,7 +28,7 @@ const MainBanner = () => {
                         <div className="col-lg-6 col-md-12">
                             <ScrollAnimation animateIn='fadeInUp' duration={2} animateOnce={true} initiallyVisible={true}>
                                 <div className="gradient-banner-image">
-                                    <img src="/images/banner/banner-img3.png" alt="banner-img" />
+                                    <img src="/images/banner/bannner.png" alt="banner-img" />
                                 </div>
                             </ScrollAnimation>
                         </div>

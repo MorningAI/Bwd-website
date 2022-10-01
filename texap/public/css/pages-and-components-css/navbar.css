@@ -29,11 +29,11 @@
 }
 
 .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item a.active {
-  color: var(--mainColor);
+  color: var(--blackColor);
 }
 
 .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item.active a {
-  color: var(--mainColor);
+  color: var(--blackColor);
 }
 
 .navbar-area.navbar-style-two .texap-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {

@@ -54,13 +54,13 @@ const AppScreenshotsStyle5 = () => {
                         {...options}
                     > 
                         <div className="single-screenshot-item">
-                            <img src="/images/screenshots/screenshots1.png" alt="screenshots" />
+                            <img src="/images/screenshots/s1.png" alt="screenshots" />
                         </div>
                         <div className="single-screenshot-item">
-                            <img src="/images/screenshots/screenshots2.png" alt="screenshots" />
+                            <img src="/images/screenshots/s2.png" alt="screenshots" />
                         </div>
                         <div className="single-screenshot-item">
-                            <img src="/images/screenshots/screenshots3.png" alt="screenshots" />
+                            <img src="/images/screenshots/screenshots-3.png" alt="screenshots" />
                         </div>
                         <div className="single-screenshot-item">
                             <img src="/images/screenshots/screenshots4.png" alt="screenshots" />
