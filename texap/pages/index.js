@@ -13,7 +13,7 @@ import ContactForm from "@/components/Contact/ContactForm";
  
 const IndexPage5 = () => {
     return (
-        <>
+        <React.Fragment>
             <NavbarStyleTwo />
 
             <MainBanner />
@@ -34,7 +34,7 @@ const IndexPage5 = () => {
       <ContactForm/>
               
             <FooterStyleTwo />
-        </>
+        </React.Fragment>
     )
 }
 

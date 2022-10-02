@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 const AboutUsArea = () => {
     return (
         <>
-            <div className="about-area pb-100">
+            <div className="about-area pb-100" id='about-us'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">

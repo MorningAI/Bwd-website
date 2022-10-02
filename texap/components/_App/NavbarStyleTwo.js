@@ -4,10 +4,10 @@ import React from "react";
 import Link from '@/utils/ActiveLink';
 
 const NavbarStyleTwo = () => {
-    const [menu, setMenu] = React.useState(true)
+    const [menu, setMenu] = React.useState("home")
  
-    const toggleNavbar = () => {
-        setMenu(!menu)
+    const toggleNavbar = (event) => {
+        setMenu(event)
     }
 
     React.useEffect(() => {
@@ -54,16 +54,16 @@ const NavbarStyleTwo = () => {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <Link href="/" activeClassName="active">
-                                            <a onClick={toggleNavbar} className="nav-link">
+                                        <Link href="/" activeClassName={menu == 'home' && 'active'}>
+                                            <a onClick={()=> toggleNavbar('home')} className="nav-link">
                                                 Home
                                             </a>
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/about-area">
-                                            <a onClick={toggleNavbar}  className=" nav-link">
+                                        <Link href="#about-us" activeClassName={menu == 'about-us' && 'active'}>
+                                            <a onClick={()=>toggleNavbar('about-us')}  className="nav-link">
                                                 About Us
                                             </a>
                                         </Link>
