@@ -62,7 +62,7 @@ const NavbarStyleTwo = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#about-us" activeClassName={menu == 'about-us' && 'active'}>
+                                        <Link href="/#about-us" activeClassName={menu == 'about-us' && 'active'}>
                                             <a onClick={()=>toggleNavbar('about-us')}  className="nav-link">
                                                 About Us
                                             </a>
@@ -70,8 +70,8 @@ const NavbarStyleTwo = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#key-features">
-                                            <a onClick={toggleNavbar} className=" nav-link">
+                                        <Link href="#key-features" activeClassName={menu == 'features' && 'active'}>
+                                            <a onClick={()=>toggleNavbar('features')} className=" nav-link">
                                                 Features
                                             </a>
                                         </Link>
@@ -79,8 +79,8 @@ const NavbarStyleTwo = () => {
                                         
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="#contact-us" activeClassName="active">
-                                            <a onClick={toggleNavbar} className="nav-link">Contact</a>
+                                        <Link href="#contact-us" activeClassName={menu == 'contact-us' && 'active'}>
+                                            <a onClick={()=>toggleNavbar('contact-us')} className="nav-link">Contact</a>
                                         </Link>
                                     </li>
                                 </ul>
