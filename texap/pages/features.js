@@ -38,7 +38,7 @@ const Features = () => {
                                 <div className="icon bg3">
                                     <i className="ri-leaf-line"></i>
                                 </div>
-                                <h3>fast and esy</h3>
+                                <h3>fast and easy</h3>
                                 <p>Either create an account in few steps, or use social authentication </p>
                             </div>
                         </div>
