@@ -2,8 +2,8 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <>
-            <div className="contact-area ptb-100">
+        <React.Fragment>
+            <div className="contact-area ptb-100" id='contact-us'>
                 <div className="container">
                     <div className="section-title">
                         <h2>Get in Touch</h2>
@@ -47,7 +47,7 @@ const ContactForm = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </React.Fragment>
     )
 }
 

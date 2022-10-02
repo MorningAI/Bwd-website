@@ -2,8 +2,8 @@ import React from 'react';
 
 const KeyFeatures = () => {
     return (
-        <>
-            <div className="features-area pb-75">
+        <React.Fragment>
+            <div className="features-area pb-75" id='key-features'>
                 <div className="container">
                     <div className="section-title">
                         <span className="sub-title">KEY FEATURES</span>
@@ -73,7 +73,7 @@ const KeyFeatures = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </React.Fragment>
     )
 }
 
