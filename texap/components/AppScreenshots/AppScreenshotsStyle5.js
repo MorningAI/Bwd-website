@@ -60,16 +60,16 @@ const AppScreenshotsStyle5 = () => {
                             <img src="/images/screenshots/s2.png" alt="screenshots" />
                         </div>
                         <div className="single-screenshot-item">
-                            <img src="/images/screenshots/screenshots-3.png" alt="screenshots" />
+                            <img src="/images/screenshots/s3.png" alt="screenshots" />
                         </div>
                         <div className="single-screenshot-item">
-                            <img src="/images/screenshots/screenshots4.png" alt="screenshots" />
+                            <img src="/images/screenshots/s4.png" alt="screenshots" />
                         </div>
                         <div className="single-screenshot-item">
-                            <img src="/images/screenshots/screenshots5.png" alt="screenshots" />
+                            <img src="/images/screenshots/s5.png" alt="screenshots" />
                         </div>
                         <div className="single-screenshot-item">
-                            <img src="/images/screenshots/screenshots4.png" alt="screenshots" />
+                            <img src="/images/screenshots/s6.png" alt="screenshots" />
                         </div>
                     </OwlCarousel> : ''}
                 </div>
