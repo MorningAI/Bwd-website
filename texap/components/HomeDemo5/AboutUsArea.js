@@ -38,7 +38,7 @@ const AboutUsArea = () => {
                         <div className="col-lg-6 col-md-12">
                             <div className="about-image">
                                 <ScrollAnimation animateIn='fadeInUp'>
-                                    <img src="/images/app/app-img7.png" alt="about" />
+                                    <img width={375} src="/images/screenshots/s8.png" alt="about" />
                                 </ScrollAnimation>
                             </div>
                         </div>

@@ -62,7 +62,7 @@ const NavbarStyleTwo = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/#about-us" activeClassName={menu == 'about-us' && 'active'}>
+                                        <Link href="#about-us" activeClassName={menu == 'about-us' && 'active'}>
                                             <a onClick={()=>toggleNavbar('about-us')}  className="nav-link">
                                                 About Us
                                             </a>

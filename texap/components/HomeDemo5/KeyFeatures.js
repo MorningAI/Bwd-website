@@ -6,8 +6,7 @@ const KeyFeatures = () => {
             <div className="features-area pb-75" id='key-features'>
                 <div className="container">
                     <div className="section-title">
-                        <span className="sub-title">KEY FEATURES</span>
-                        <h2>Most Probably Included Best Features Ever</h2>
+                        <h2>KEY FEATURES</h2>
                     </div>
 
                     <div className="row justify-content-center">
