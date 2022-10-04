@@ -42,7 +42,7 @@ const AppScreenshotsStyle5 = () => {
 
     return (
         <>
-            <div className="screenshots-area pb-100">
+            <div className="screenshots-area pb-100" id='screenshots-area'>
                 <div className="container">
                     <div className="section-title">
                         <span className="sub-title">APP SCREENS</span>

@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const AppDownloadStyle2 = () => {
     return (
         <>
-            <div className="app-download-area pb-100">
+            <div className="app-download-area pb-100" id='app-download'>
                 <div className="container">
                     <div className="app-download-inner bg-gray">
                         <div className="row align-items-center">

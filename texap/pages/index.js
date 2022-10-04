@@ -30,7 +30,7 @@ const IndexPage5 = () => {
 
 
           
-      <AppProgressStyle1/>
+      {/* <AppProgressStyle1/> */}
       <ContactForm/>
               
             <FooterStyleTwo />

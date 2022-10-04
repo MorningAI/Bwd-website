@@ -70,6 +70,14 @@ const NavbarStyleTwo = () => {
                                     </li>
 
                                     <li className="nav-item">
+                                        <Link href="#screenshots-area" activeClassName={menu == 'screenshots-area' && 'active'}>
+                                            <a onClick={()=>toggleNavbar('screenshots-area')}  className="nav-link">
+                                            Screenshots
+                                            </a>
+                                        </Link>
+                                    </li>
+
+                                    <li className="nav-item">
                                         <Link href="#key-features" activeClassName={menu == 'features' && 'active'}>
                                             <a onClick={()=>toggleNavbar('features')} className=" nav-link">
                                                 Features
@@ -87,7 +95,7 @@ const NavbarStyleTwo = () => {
                             </div>
 
                             <div className="others-options">
-                                <Link href="/app-download">
+                                <Link href="#app-download" activeClassName={menu == 'app-download' && 'active'}>
                                     <a className="default-btn">
                                         Get the App
                                     </a>
