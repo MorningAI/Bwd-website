@@ -9,9 +9,8 @@ const MainBanner = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="gradient-banner-content">
-                                <h1> develop the community contribution of diasporas in the world</h1>
-                                <p>The communication relay between members of the diaspora, and the 
-                                    community of their native countries and other countries.</p>
+                                <h1> Business with Diaspora</h1>
+                                <p>The first social media app that connects the diaspora with the community of their native countries.</p>
                                 
                                 {/* <form onSubmit={e => e.preventDefault()}>
                                     <input 

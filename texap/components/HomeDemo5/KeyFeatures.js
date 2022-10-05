@@ -15,8 +15,8 @@ const KeyFeatures = () => {
                                 <div className="icon">
                                     <i className="ri-eye-line"></i>
                                 </div>
-                                <h3>High Resolution</h3>
-                                <p>Just log in with your mail account from play store and using whatever you want for your able business purpose.</p>
+                                <h3>Network</h3>
+                                <p>Find and connect with people who share the same culture as you!</p>
                             </div>
                         </div>
 
@@ -25,48 +25,28 @@ const KeyFeatures = () => {
                                 <div className="icon bg2">
                                     <i className="ri-stack-line"></i>
                                 </div>
-                                <h3>Retina Ready Screen</h3>
-                                <p>Just log in with your mail account from play store and using whatever you want for your able business purpose.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-6 col-md-6 xsw-100">
-                            <div className="features-item with-border">
-                                <div className="icon bg3">
-                                    <i className="ri-leaf-line"></i>
-                                </div>
-                                <h3>Easy Editable Data</h3>
-                                <p>Just log in with your mail account from play store and using whatever you want for your able business purpose.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-6 col-md-6 xsw-100">
-                            <div className="features-item with-border">
-                                <div className="icon bg4">
-                                    <i className="ri-secure-payment-line"></i>
-                                </div>
-                                <h3>Fully Secured</h3>
-                                <p>Just log in with your mail account from play store and using whatever you want for your able business purpose.</p>
+                                <h3>Chat</h3>
+                                <p>bwd makes it easy to stay close to your community.</p>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-6 col-md-6 xsw-100">
                             <div className="features-item with-border">
                                 <div className="icon bg5">
-                                    <i className="ri-cloud-line"></i>
+                                    <i className="ri-pie-chart-2-line"></i>
                                 </div>
-                                <h3>Cloud Storage</h3>
-                                <p>Just log in with your mail account from play store and using whatever you want for your able business purpose.</p>
+                                <h3>Subscription</h3>
+                                <p>Manage subscriptions for the events you create, or just subscribe to the next events you’re joining.</p>
                             </div>
                         </div>
                         
                         <div className="col-lg-4 col-6 col-md-6 xsw-100">
                             <div className="features-item with-border">
                                 <div className="icon bg6">
-                                    <i className="ri-pie-chart-2-line"></i>
+                                    <i className="ri-cloud-line"></i>
                                 </div>
-                                <h3>Responsive Ready</h3>
-                                <p>Just log in with your mail account from play store and using whatever you want for your able business purpose.</p>
+                                <h3>Events</h3>
+                                <p>This is the perfect place for you whether you want to find events created by people from your native country or to create one.</p>
                             </div>
                         </div>
                     </div>

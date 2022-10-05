@@ -11,8 +11,8 @@ const AppDownloadStyle2 = () => {
                             <div className="col-lg-6 col-md-12">
                                 <div className="app-download-content">
                                     <span className="sub-title">DOWNLOAD APP</span>
-                                    <h2>Let's Get Your Free Copy From Apple and Play Store</h2>
-                                    <p>Instant free download from store Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.</p>
+                                    <h2>Download bwd App now</h2>
+                                    <p>Want to connect with people from your native country? Get Business with Diaspora social media App from Google Play or Apple Store for Free!</p>
 
                                     <div className="btn-box">
                                         <a href="https://play.google.com/store/apps" className="playstore-btn" target="_blank">

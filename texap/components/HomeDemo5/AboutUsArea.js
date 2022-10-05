@@ -11,27 +11,28 @@ const AboutUsArea = () => {
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content">
                                 <span className="sub-title">ABOUT US</span>
-                                <h2>Most Probably You Are Getting Best App Ever</h2>
-                                <p>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began.</p>
+                                <h2>What is Business with Diaspora?</h2>
+                                <p>bwd is a social media app that connects the diaspora with the community of their native countries.</p>
 
                                 <div className="features-text">
-                                    <h6>Trusted and Reliable</h6>
-                                    <p>Most provabily best you can trust on it, just log in with your mail account from play store and using whatever you want for your business.</p>
+                                    <h6>Events</h6>
+                                    <p>With the bwd social media app, you can find events that match your interests with people from your native country.
+                                        Plus you can subscribe and see who is coming to these events.</p>
                                 </div>
 
                                 <div className="features-text">
-                                    <h6>Cloud Storage</h6>
-                                    <p>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy of your business purpose text.</p>
+                                    <h6>Why Business in Business with Diaspora?</h6>
+                                    <p>With bwd, it’s easier to find and join events where you can find business opportunities.</p>
                                 </div>
 
-                                <div className="btn-box">
+                                {/* <div className="btn-box">
                                     <Link href="/sign-up">
                                         <a className="default-btn">Start Free Trial</a>
                                     </Link>
                                     <Link href="/features">
                                         <a className="link-btn">See All Features</a>
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 

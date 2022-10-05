@@ -52,13 +52,15 @@ const NavbarStyleTwo = () => {
                             </button>
 
                             <div className={classOne} id="navbarSupportedContent">
-                                <ul className="navbar-nav">
+                                <ul className="navbar-nav  " >
                                     <li className="nav-item">
                                         <Link href="/" activeClassName={menu == 'home' && 'active'}>
                                             <a onClick={()=> toggleNavbar('home')} className="nav-link">
                                                 Home
                                             </a>
                                         </Link>
+                                        
+                                        
                                     </li>
 
                                     <li className="nav-item">
@@ -83,8 +85,14 @@ const NavbarStyleTwo = () => {
                                                 Features
                                             </a>
                                         </Link>
+                                        
 
                                         
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link href="#app-progress" activeClassName={menu == 'app-progress' && 'active'}>
+                                            <a onClick={()=>toggleNavbar('app-progress')} className="nav-link">Progress</a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link href="#contact-us" activeClassName={menu == 'contact-us' && 'active'}>
