@@ -107,7 +107,7 @@ const NavbarStyleTwo = () => {
                             <div className="others-options">
                                 <Link href="#app-download" activeClassName={menu == 'app-download' && 'active'}>
                                     <a className="default-btn">
-                                        Get the App
+                                        Soon available
                                     </a>
                                 </Link>
                             </div>

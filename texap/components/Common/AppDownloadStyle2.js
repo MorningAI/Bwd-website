@@ -17,12 +17,12 @@ const AppDownloadStyle2 = () => {
                                     <div className="btn-box">
                                         <a href="https://play.google.com/store/apps" className="playstore-btn" target="_blank">
                                             <img src="/images/play-store.png" alt="image" />
-                                            Get It On
+                                            Soon available on
                                             <span>Google Play</span>
                                         </a>
                                         <a href="https://www.apple.com/app-store/" className="applestore-btn" target="_blank">
                                             <img src="/images/apple-store.png" alt="image" />
-                                            Download on the
+                                            Soon available on
                                             <span>Apple Store</span>
                                         </a>
                                     </div>
