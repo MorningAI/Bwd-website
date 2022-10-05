@@ -1,0 +1,259 @@
+/*================================================
+Coming Soon Area CSS
+=================================================*/
+.coming-soon-area {
+  height: 100vh;
+}
+
+.coming-soon-image {
+  height: 100%;
+  background-image: url(/images/coming-soon.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coming-soon-image img {
+  display: none;
+}
+
+.coming-soon-content {
+  height: 100vh;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.coming-soon-content .logo {
+  display: inline-block;
+}
+
+.coming-soon-content h2 {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.coming-soon-content #timer {
+  margin-top: 35px;
+}
+
+.coming-soon-content #timer div {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  color: var(--mainColor);
+  background-color: #f9f9f9;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.coming-soon-content #timer div span {
+  display: block;
+  margin-top: -2px;
+  color: var(--blackColor);
+  font-size: var(--fontSize);
+  font-weight: 600;
+}
+
+.coming-soon-content #timer div:first-child {
+  margin-left: 0;
+}
+
+.coming-soon-content #timer div:last-child {
+  margin-right: 0;
+}
+
+.coming-soon-content form {
+  position: relative;
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.coming-soon-content form .input-newsletter {
+  width: 100%;
+  height: 60px;
+  border: none;
+  display: block;
+  border-radius: 4px;
+  padding: 0 0 0 15px;
+  color: var(--blackColor);
+  font-size: var(--fontSize);
+  border: 1px solid #eeeeee;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.coming-soon-content form .input-newsletter::-webkit-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.coming-soon-content form .input-newsletter:-ms-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.coming-soon-content form .input-newsletter::-ms-input-placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.coming-soon-content form .input-newsletter::placeholder {
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.coming-soon-content form .input-newsletter:focus {
+  border-color: #eeeeee;
+}
+
+.coming-soon-content form .input-newsletter:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.coming-soon-content form .input-newsletter:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.coming-soon-content form .input-newsletter:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.coming-soon-content form .input-newsletter:focus::placeholder {
+  color: transparent;
+}
+
+.coming-soon-content form .default-btn {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  border-radius: 4px;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+.coming-soon-content form .default-btn::before {
+  border-radius: 4px;
+}
+
+.coming-soon-content form #validator-newsletter {
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+}
+
+.coming-soon-content form #validator-newsletter.validation-danger {
+  color: red;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .coming-soon-image {
+    height: auto;
+    background-image: unset !important;
+  }
+  .coming-soon-image img {
+    display: inline-block;
+  }
+  .coming-soon-content {
+    height: auto;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+  }
+  .coming-soon-content h2 {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  .coming-soon-content #timer {
+    margin-top: 10px;
+  }
+  .coming-soon-content #timer div {
+    width: 90px;
+    height: 90px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .coming-soon-content #timer div span {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .coming-soon-content #timer div:first-child {
+    margin-left: 10px;
+  }
+  .coming-soon-content #timer div:last-child {
+    margin-right: 10px;
+  }
+  .coming-soon-content form {
+    max-width: 420px;
+    margin-top: 30px;
+  }
+  .coming-soon-content form .default-btn {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    padding: 15px 20px 13px;
+  }
+  .coming-soon-content form .input-newsletter {
+    padding: 0 0 0 15px;
+    font-size: 13px;
+    height: 45px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .coming-soon-image {
+    height: auto;
+    background-image: unset !important;
+  }
+  .coming-soon-image img {
+    display: inline-block;
+  }
+  .coming-soon-content {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .coming-soon-content h2 {
+    font-size: 30px;
+  }
+  .coming-soon-content form .default-btn {
+    bottom: 8px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .coming-soon-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .coming-soon-content #timer div {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+  }
+  .coming-soon-content form {
+    max-width: 465px;
+    margin-top: 30px;
+  }
+}
+
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=coming-soon.css.map */

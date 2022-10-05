@@ -1,0 +1,145 @@
+/*================================================
+How It Works Area CSS
+=================================================*/
+.how-it-works-content {
+  border-left: 1px dashed var(--mainColor);
+  padding-bottom: 40px;
+  padding-left: 50px;
+  position: relative;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-it-works-content .number {
+  top: 0;
+  left: -29px;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  color: var(--whiteColor);
+  background-color: var(--mainColor);
+  border: 1px dashed var(--whiteColor);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.how-it-works-content .box h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 3px;
+}
+
+.how-it-works-content .box span {
+  font-size: 16px;
+  color: var(--mainColor);
+  display: block;
+}
+
+.how-it-works-content .content {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 50px;
+  margin-left: 15px;
+}
+
+.how-it-works-content .content img {
+  margin-top: 15px;
+}
+
+.how-it-works-content .content ul li {
+  color: var(--paragraphColor);
+  margin-bottom: 12px;
+}
+
+.how-it-works-content .content ul li a {
+  color: var(--mainColor);
+}
+
+.how-it-works-content .content ul li a:hover {
+  text-decoration: underline;
+}
+
+.how-it-works-content .content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.how-it-works-content:last-child {
+  padding-bottom: 0;
+}
+
+.how-it-works-content:last-child .content {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .how-it-works-content {
+    max-width: 100%;
+    margin-left: 15px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+  }
+  .how-it-works-content .number {
+    left: -17px;
+    width: 34px;
+    height: 34px;
+    font-size: 15px;
+    line-height: 33px;
+  }
+  .how-it-works-content .box {
+    margin-bottom: 15px;
+  }
+  .how-it-works-content .box h3 {
+    font-size: 16px;
+  }
+  .how-it-works-content .box span {
+    font-size: 13px;
+  }
+  .how-it-works-content .content {
+    padding-bottom: 30px;
+    margin-left: 0;
+  }
+  .how-it-works-content .content img {
+    margin-top: 0;
+  }
+  .how-it-works-content .content ul {
+    margin-left: -15px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .how-it-works-content {
+    max-width: 640px;
+  }
+  .how-it-works-content .box h3 {
+    font-size: 18px;
+  }
+  .how-it-works-content .box span {
+    font-size: 14px;
+  }
+  .how-it-works-content .content {
+    padding-bottom: 40px;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .how-it-works-content .content p {
+    font-size: 15px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .how-it-works-content {
+    max-width: 830px;
+  }
+}
+
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=how-it-works.css.map */

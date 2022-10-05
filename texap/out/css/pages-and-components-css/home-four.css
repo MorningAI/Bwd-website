@@ -1,0 +1,603 @@
+/*================================================
+Main Banner Area CSS
+=================================================*/
+.main-banner {
+  background: linear-gradient(42.99deg, #3F75FF 10.19%, #44A6FF 50.48%, #4ADEFF 94.28%);
+  padding-top: 160px;
+  position: relative;
+  z-index: 1;
+}
+
+.main-banner .content {
+  text-align: center;
+}
+
+.main-banner .content .sub-title {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--whiteColor);
+  display: inline-block;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding: 7px 20px;
+}
+
+.main-banner .content h1 {
+  color: var(--whiteColor);
+  max-width: 960px;
+  line-height: 1.4;
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-banner .content .default-btn {
+  margin-top: 15px;
+  color: var(--blackColor);
+  background-color: var(--whiteColor);
+}
+
+.main-banner .content .default-btn::before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.main-banner .content .default-btn:hover {
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+}
+
+.main-banner .content img {
+  margin-top: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.15);
+          box-shadow: 0px 25px 75px rgba(25, 34, 64, 0.15);
+}
+
+.main-banner .divider {
+  height: 300px;
+  bottom: 299px;
+}
+
+.main-banner::before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  content: '';
+  height: 300px;
+  position: absolute;
+  background-color: var(--whiteColor);
+}
+
+.main-banner .banner-shape3 {
+  bottom: 33%;
+  left: 7%;
+}
+
+.main-banner .banner-shape8 {
+  bottom: 12%;
+  right: auto;
+  left: 8%;
+}
+
+.main-banner .banner-shape7 {
+  bottom: -30px;
+  right: 9%;
+}
+
+/*================================================
+App Download Area CSS
+=================================================*/
+.app-download-inner.bg-gradient-color {
+  padding-right: 50px;
+}
+
+.app-download-inner.bg-gradient-color::before {
+  margin: 0;
+}
+
+.app-download-inner.bg-gradient-color .app-download-image {
+  padding-top: 50px;
+}
+
+/*================================================
+Features Area CSS
+=================================================*/
+.single-features-item.without-hover {
+  padding: 0 0 0 80px;
+  margin-bottom: 40px;
+}
+
+.single-features-item.without-hover .icon {
+  top: 0;
+  left: 0;
+}
+
+.single-features-item.without-hover::before {
+  display: none;
+}
+
+.single-features-item.without-hover:hover {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.single-features-item.without-hover:hover h3 {
+  color: var(--blackColor);
+}
+
+.single-features-item.without-hover:hover p {
+  color: var(--paragraphColor);
+}
+
+.features-box.left {
+  text-align: left;
+}
+
+.features-box.left .icon {
+  margin-left: 0;
+  text-align: center;
+}
+
+.features-box.left p {
+  padding: 0;
+}
+
+/*================================================
+Screenshots Area CSS
+=================================================*/
+.screenshots-area.bg-black {
+  background-color: var(--blackColor);
+}
+
+.screenshots-area.bg-black .section-title h2 {
+  color: var(--whiteColor);
+}
+
+.free-trial-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.screen-swiper-slides {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.screen-swiper-slides .swiper-cube-shadow {
+  display: none;
+}
+
+.screen-swiper-slides .swiper-button-next {
+  right: 0;
+  z-index: 1;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: var(--whiteColor);
+  background-color: #393F50;
+}
+
+.screen-swiper-slides .swiper-button-next::after {
+  font-size: 18px;
+}
+
+.screen-swiper-slides .swiper-button-next::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  content: '';
+  border-radius: 50%;
+  visibility: hidden;
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: var(--gradientColor);
+}
+
+.screen-swiper-slides .swiper-button-next:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.screen-swiper-slides .swiper-button-prev {
+  left: 0;
+  z-index: 1;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: var(--whiteColor);
+  background-color: #393F50;
+}
+
+.screen-swiper-slides .swiper-button-prev::after {
+  font-size: 18px;
+}
+
+.screen-swiper-slides .swiper-button-prev::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  content: '';
+  border-radius: 50%;
+  visibility: hidden;
+  position: absolute;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: var(--gradientColor);
+}
+
+.screen-swiper-slides .swiper-button-prev:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*================================================
+Software Integrations Area CSS
+=================================================*/
+.software-integrations-inner.bg-gradient-color {
+  z-index: 1;
+  padding: 50px;
+  position: relative;
+  background: var(--gradientColor);
+}
+
+.software-integrations-inner.bg-gradient-color::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  content: '';
+  position: absolute;
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/*================================================
+Pricing Area CSS
+=================================================*/
+.pricing-section-title.black-color .sub-title {
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing-section-title.black-color h2, .pricing-section-title.black-color p {
+  color: var(--blackColor);
+}
+
+.pricing-section-title.black-color .nav-tabs {
+  background-color: #f9f9f9;
+}
+
+.single-pricing-table.with-border {
+  border: 1px solid #eeeeee;
+}
+
+.single-pricing-table.with-border:hover {
+  border-color: var(--whiteColor);
+}
+
+/*================================================
+Feedback Area CSS
+=================================================*/
+.feedback-area.bg-gradient-color {
+  z-index: 1;
+  position: relative;
+  background-color: var(--whiteColor);
+}
+
+.feedback-area.bg-gradient-color::before {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  content: '';
+  z-index: -1;
+  position: absolute;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+}
+
+.feedback-slides-two.owl-theme .single-feedback-box {
+  background-color: var(--whiteColor);
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.feedback-slides-two.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 20px;
+}
+
+.feedback-slides-two.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  border-radius: 50%;
+  position: relative;
+  background-color: transparent;
+}
+
+.feedback-slides-two.owl-theme .owl-dots .owl-dot span::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.1;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #0064FB;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.feedback-slides-two.owl-theme .owl-dots .owl-dot span::after {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  visibility: hidden;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+}
+
+.feedback-slides-two.owl-theme .owl-dots .owl-dot:hover span::before, .feedback-slides-two.owl-theme .owl-dots .owl-dot.active span::before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.feedback-slides-two.owl-theme .owl-dots .owl-dot:hover span::after, .feedback-slides-two.owl-theme .owl-dots .owl-dot.active span::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.feedback-section-title {
+  position: relative;
+  top: 60px;
+}
+
+.feedback-section-title .sub-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 0.1em;
+  color: var(--whiteColor);
+}
+
+.feedback-section-title h2 {
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  color: var(--whiteColor);
+}
+
+/* Max width 430px */
+@media only screen and (max-width: 430px) {
+  .features-box.left {
+    text-align: left;
+    border: 1px solid #eee;
+    padding: 25px;
+  }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .main-banner {
+    padding-top: 135px;
+  }
+  .main-banner .divider {
+    height: 100px;
+    bottom: -1px;
+  }
+  .main-banner::before {
+    display: none;
+  }
+  .main-banner .content .sub-title {
+    margin-bottom: 15px;
+    padding: 5px 15px;
+  }
+  .main-banner .content h1 {
+    font-size: 25px;
+    max-width: 100%;
+  }
+  .main-banner .content .default-btn {
+    margin-top: 10px;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .main-banner .content img {
+    margin-top: 30px;
+  }
+  .single-features-item.without-hover {
+    padding: 0 0 0 70px;
+    margin-bottom: 30px;
+  }
+  .app-download-inner.bg-gradient-color {
+    padding-right: 15px;
+    padding-bottom: 0;
+  }
+  .app-download-inner.bg-gradient-color .app-download-image {
+    padding-top: 0;
+  }
+  .screen-swiper-slides {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .screen-swiper-slides .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+  }
+  .screen-swiper-slides .swiper-button-prev::after {
+    font-size: 13px;
+  }
+  .screen-swiper-slides .swiper-button-next {
+    width: 30px;
+    height: 30px;
+  }
+  .screen-swiper-slides .swiper-button-next::after {
+    font-size: 13px;
+  }
+  .free-trial-btn {
+    margin-top: 30px;
+  }
+  .software-integrations-inner.bg-gradient-color {
+    padding: 60px 15px;
+  }
+  .feedback-area.bg-gradient-color::before {
+    width: 100%;
+  }
+  .feedback-section-title {
+    top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .feedback-section-title .sub-title {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .feedback-section-title h2 {
+    font-size: 20px;
+  }
+  .feedback-slides-two.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 5px;
+  }
+  .feedback-slides-two.owl-theme .owl-dots .owl-dot span::after {
+    background: var(--whiteColor);
+  }
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-features-item.without-hover {
+    padding: 0;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-banner {
+    padding-top: 150px;
+  }
+  .main-banner::before {
+    height: 100px;
+  }
+  .main-banner .divider {
+    height: 140px;
+    bottom: 99px;
+  }
+  .main-banner .content h1 {
+    font-size: 32px;
+    max-width: 100%;
+  }
+  .main-banner .content .sub-title {
+    font-size: 13px;
+    padding: 6px 20px;
+  }
+  .main-banner .content .default-btn {
+    margin-top: 10px;
+  }
+  .app-download-inner.bg-gradient-color {
+    padding-right: 30px;
+    padding-bottom: 0;
+  }
+  .app-download-inner.bg-gradient-color .app-download-image {
+    padding-top: 5px;
+  }
+  .screen-swiper-slides {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  .free-trial-btn {
+    margin-top: 40px;
+  }
+  .software-integrations-inner.bg-gradient-color {
+    padding: 80px 30px;
+  }
+  .feedback-area.bg-gradient-color::before {
+    width: 100%;
+  }
+  .feedback-section-title {
+    top: 0;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .feedback-section-title .sub-title {
+    font-size: 13px;
+  }
+  .feedback-section-title h2 {
+    font-size: 30px;
+  }
+  .feedback-slides-two.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 5px;
+  }
+  .feedback-slides-two.owl-theme .owl-dots .owl-dot span::after {
+    background: var(--whiteColor);
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-banner .divider {
+    height: 200px;
+    bottom: 199px;
+  }
+  .main-banner::before {
+    height: 200px;
+  }
+  .app-download-inner.bg-gradient-color {
+    padding-right: 30px;
+  }
+  .app-download-inner.bg-gradient-color .app-download-image {
+    padding-top: 0;
+  }
+  .screen-swiper-slides {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .software-integrations-inner.bg-gradient-color {
+    padding: 50px 0 50px 30px;
+  }
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .software-integrations-inner.bg-gradient-color {
+    padding: 50px 30px;
+  }
+}
+
+/* Min width 1550px */
+@media only screen and (min-width: 1550px) {
+  .main-banner .banner-shape3 {
+    bottom: 32%;
+    left: 15%;
+  }
+  .main-banner .banner-shape8 {
+    bottom: 12%;
+    right: auto;
+    left: 16%;
+  }
+  .main-banner .banner-shape7 {
+    bottom: -30px;
+    right: 16%;
+  }
+}
+/*# sourceMappingURL=home-four.css.map */

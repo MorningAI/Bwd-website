@@ -1,0 +1,152 @@
+/*================================================
+Privacy Policy Area CSS
+=================================================*/
+.privacy-policy-content h6 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-content h6:not(:first-child) {
+  margin-top: 25px;
+}
+
+.privacy-policy-content h5 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-content h5:not(:first-child) {
+  margin-top: 25px;
+}
+
+.privacy-policy-content h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-content h4:not(:first-child) {
+  margin-top: 25px;
+}
+
+.privacy-policy-content h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-content h3:not(:first-child) {
+  margin-top: 25px;
+}
+
+.privacy-policy-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-content h2:not(:first-child) {
+  margin-top: 25px;
+}
+
+.privacy-policy-content h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-content h1:not(:first-child) {
+  margin-top: 25px;
+}
+
+.privacy-policy-content strong {
+  color: var(--blackColor) !important;
+}
+
+.privacy-policy-content p a {
+  color: var(--mainColor);
+}
+
+.privacy-policy-content p a:hover {
+  text-decoration: underline;
+}
+
+.privacy-policy-content ul li {
+  color: var(--paragraphColor);
+  margin-bottom: 12px;
+}
+
+.privacy-policy-content ul li a {
+  color: var(--mainColor);
+}
+
+.privacy-policy-content ul li a:hover {
+  text-decoration: underline;
+}
+
+.privacy-policy-content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-policy-content ol li {
+  color: var(--paragraphColor);
+  margin-bottom: 12px;
+}
+
+.privacy-policy-content ol li a {
+  color: var(--mainColor);
+}
+
+.privacy-policy-content ol li a:hover {
+  text-decoration: underline;
+}
+
+.privacy-policy-content ol li:last-child {
+  margin-bottom: 0;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .privacy-policy-content h6 {
+    font-size: 16px;
+  }
+  .privacy-policy-content h5 {
+    font-size: 17px;
+  }
+  .privacy-policy-content h4 {
+    font-size: 18px;
+  }
+  .privacy-policy-content h3 {
+    font-size: 19px;
+  }
+  .privacy-policy-content h2 {
+    font-size: 20px;
+  }
+  .privacy-policy-content h1 {
+    font-size: 21px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .privacy-policy-content h6 {
+    font-size: 18px;
+  }
+  .privacy-policy-content h5 {
+    font-size: 19px;
+  }
+  .privacy-policy-content h4 {
+    font-size: 20px;
+  }
+  .privacy-policy-content h3 {
+    font-size: 21px;
+  }
+  .privacy-policy-content h2 {
+    font-size: 22px;
+  }
+  .privacy-policy-content h1 {
+    font-size: 23px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=privacy-policy.css.map */

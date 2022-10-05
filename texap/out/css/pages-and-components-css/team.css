@@ -1,0 +1,264 @@
+/*================================================
+Team Area CSS
+=================================================*/
+.single-team-box {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.single-team-box .image {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  -webkit-transform: rotate(45deg) translateZ(0px);
+          transform: rotate(45deg) translateZ(0px);
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.single-team-box .image div {
+  top: 50%;
+  left: 50%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg) translate(0%, -70%);
+          transform: rotate(-45deg) translate(0%, -70%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.single-team-box .image div.bg-1 {
+  background-image: url(/images/team/team1.jpg);
+}
+
+.single-team-box .image div.bg-2 {
+  background-image: url(/images/team/team2.jpg);
+}
+
+.single-team-box .image div.bg-3 {
+  background-image: url(/images/team/team3.jpg);
+}
+
+.single-team-box .image div.bg-4 {
+  background-image: url(/images/team/team4.jpg);
+}
+
+.single-team-box .image div.bg-5 {
+  background-image: url(/images/team/team5.jpg);
+}
+
+.single-team-box .image div.bg-6 {
+  background-image: url(/images/team/team6.jpg);
+}
+
+.single-team-box .image div.bg-7 {
+  background-image: url(/images/team/team7.jpg);
+}
+
+.single-team-box .image div.bg-8 {
+  background-image: url(/images/team/team8.jpg);
+}
+
+.single-team-box .image div.bg-9 {
+  background-image: url(/images/team/team9.jpg);
+}
+
+.single-team-box .image div.bg-10 {
+  background-image: url(/images/team/team10.jpg);
+}
+
+.single-team-box .image div.bg-11 {
+  background-image: url(/images/team/team11.jpg);
+}
+
+.single-team-box .content {
+  margin-top: 45px;
+}
+
+.single-team-box .content h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.single-team-box .content span {
+  display: block;
+  font-weight: 300;
+  color: var(--paragraphColor);
+}
+
+.single-team-member {
+  background-color: #f9f9f9;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  padding: 60px 30px;
+  overflow: hidden;
+}
+
+.single-team-member .image {
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single-team-member .image img {
+  border-radius: 50%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.9s ease 0s;
+  transition: all 0.9s ease 0s;
+}
+
+.single-team-member .image::before {
+  left: 0;
+  right: 0;
+  height: 0;
+  content: "";
+  width: 100%;
+  opacity: 0.9;
+  bottom: 135%;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-transform: scale(3);
+          transform: scale(3);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--mainColor);
+}
+
+.single-team-member .content {
+  margin-top: 25px;
+}
+
+.single-team-member .content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.single-team-member .content span {
+  display: block;
+  color: var(--mainColor);
+}
+
+.single-team-member .social-links {
+  left: 0;
+  right: 0;
+  opacity: 0;
+  bottom: -35px;
+  padding-left: 0;
+  margin-bottom: 0;
+  position: absolute;
+  visibility: hidden;
+  list-style-type: none;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--mainColor);
+}
+
+.single-team-member .social-links li {
+  display: inline-block;
+  margin-bottom: -7px;
+}
+
+.single-team-member .social-links li a {
+  display: block;
+  width: 40px;
+  font-size: 18px;
+  height: 40px;
+  position: relative;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+.single-team-member .social-links li a i {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.single-team-member .social-links li a:hover {
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
+}
+
+.single-team-member:hover .image::before {
+  height: 100%;
+}
+
+.single-team-member:hover .social-links {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .single-team-box .image {
+    width: 100px;
+    height: 100px;
+  }
+  .single-team-box .image div {
+    width: 135px;
+    height: 135px;
+  }
+  .single-team-box .content {
+    margin-top: 40px;
+  }
+  .single-team-box .content h3 {
+    font-size: 16px;
+  }
+  .single-team-member {
+    padding: 40px 15px 60px;
+  }
+  .single-team-member .content h3 {
+    font-size: 16px;
+  }
+  .single-team-member .social-links {
+    visibility: visible;
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-team-box .content h3 {
+    font-size: 18px;
+  }
+  .single-team-member {
+    padding-top: 30px;
+  }
+  .single-team-member .content h3 {
+    font-size: 18px;
+  }
+  .single-team-member .social-links {
+    visibility: visible;
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-team-member .image {
+    width: 145px;
+    height: 145px;
+  }
+}
+
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=team.css.map */

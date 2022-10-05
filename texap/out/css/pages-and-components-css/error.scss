@@ -1,0 +1,74 @@
+/* 404 Error Area CSS */
+.error-area {
+    z-index: 1;
+    position: relative;
+    background: {
+        image: url(/images/error-bg.jpg);
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+    };
+    height: 100vh;
+}
+.error-content {
+    text-align: center;
+
+    p {
+        font-size: 16px;
+        max-width: 550px;
+        color: var(--whiteColor);
+        margin: {
+            top: 35px;
+            bottom: 0;
+            left: auto;
+            right: auto;
+        };
+    }
+    .default-btn {
+        margin-top: 25px;
+        color: var(--blackColor);
+
+        &::before {
+            background: var(--whiteColor);
+        }
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .error-content {
+        p {
+            font-size: 13px;
+            max-width: 100%;
+            margin-top: 30px;
+        }
+        .default-btn {
+            margin-top: 20px;
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .error-content {
+        p {
+            font-size: 14px;
+            max-width: 500px;
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+}

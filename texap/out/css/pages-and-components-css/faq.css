@@ -1,0 +1,171 @@
+.faq-accordion .accordion {
+  padding: 15px;
+  border: none;
+}
+
+.faq-accordion .accordion .accordion__item {
+  background-color: transparent;
+  margin-bottom: 30px;
+  border-radius: 0;
+  border: none;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__button {
+  display: block;
+  padding: 0 40px 10px 0;
+  text-align: start;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  position: relative;
+  color: var(--blackColor);
+  background-color: transparent;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__button:focus {
+  outline: 0;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__button:before {
+  margin-right: 0;
+  border-bottom: 3px solid #716c80;
+  border-right: none;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  right: 0;
+  top: 24%;
+  z-index: 1;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__button::after {
+  content: '';
+  margin-right: 0;
+  border-right: 3px solid #716c80;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  margin-top: 5px;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  right: 5px;
+  top: 25%;
+  z-index: 1;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__button[aria-expanded='true']::after, .faq-accordion .accordion .accordion__item .accordion__button[aria-selected='true']::after {
+  display: none;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__button[aria-expanded='true']::before, .faq-accordion .accordion .accordion__item .accordion__button[aria-selected='true']::before {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel {
+  padding: 20px 0 0;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel p strong {
+  color: var(--blackColor);
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel p a {
+  color: var(--mainColor);
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel p a:hover {
+  text-decoration: underline;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul {
+  margin-bottom: 15px;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul li {
+  margin-bottom: 12px;
+  color: var(--paragraphColor);
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul li strong {
+  color: var(--blackColor);
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul li a {
+  color: var(--mainColor);
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul li a:hover {
+  text-decoration: underline;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul li:last-child {
+  margin-bottom: 0;
+}
+
+.faq-accordion .accordion .accordion__item .accordion__panel ul:last-child {
+  margin-bottom: 0;
+}
+
+.faq-accordion .accordion .accordion__item:last-child {
+  margin-bottom: 0;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .faq-sidebar {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .faq-sidebar ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .faq-sidebar ul li {
+    padding: 8px 20px;
+  }
+  .faq-accordion {
+    padding-left: 0;
+  }
+  .faq-accordion .accordion-item {
+    margin-bottom: 20px;
+  }
+  .faq-accordion .accordion-item .accordion-button {
+    font-size: 14px;
+  }
+  .faq-accordion .accordion-item .accordion-button::before {
+    bottom: 8px;
+    font-size: 16px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-sidebar {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .faq-sidebar ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .faq-sidebar ul li {
+    padding: 10px 30px;
+  }
+  .faq-accordion {
+    padding-left: 0;
+  }
+  .faq-accordion .accordion-item .accordion-button {
+    font-size: 16px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+/* Min width 1200px to Max width 1399px */
+/* Min width 1550px */
+/*# sourceMappingURL=faq.css.map */
