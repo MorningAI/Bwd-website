@@ -6,9 +6,11 @@ import Link from '@/utils/ActiveLink';
 const NavbarStyleTwo = () => {
     const [menu, setMenu] = React.useState("home")
  
-    const toggleNavbar = (event) => {
-        setMenu(event)
+    const toggleNavbar = () => {
+        setMenu(!menu)
     }
+    
+    //    const toggleNavbar = (event) => {setMenu(event)}
 
     React.useEffect(() => {
         let elementId = document.getElementById("navbar");
