@@ -24,11 +24,6 @@ const FooterStyleTwo = () => {
 
                                 <ul className="social-links">
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i className="ri-facebook-fill"></i>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="https://twitter.com/" target="_blank">
                                             <i className="ri-twitter-fill"></i>
                                         </a>
@@ -38,11 +33,7 @@ const FooterStyleTwo = () => {
                                             <i className="ri-linkedin-fill"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="https://github.com/" target="_blank">
-                                            <i className="ri-github-fill"></i>
-                                        </a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -56,11 +47,11 @@ const FooterStyleTwo = () => {
                                             <a>About Us</a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/faq">
                                             <a>FAQ's</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     {/* <li>
                                         <Link href="/feedback">
                                             <a>Reviews</a>
